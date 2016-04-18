@@ -1,0 +1,16 @@
+//
+//  DAJIA_prefix.pch
+//  DAJIA_SIMPLE
+//
+//  Created by wey on 16/3/31.
+//  Copyright © 2016年 weiSH. All rights reserved.
+//
+
+
+#ifndef DAJIA_prefix_pch
+#define DAJIA_prefix_pch
+
+#import "ShCommonUI.h"
+#import "ShDevice.h"
+#import "SyCacheManager.h"
+#endif /* DAJIA_prefix_pch */

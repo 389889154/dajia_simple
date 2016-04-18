@@ -1,0 +1,2804 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<script type="text/javascript">
+    var _ctxPath = "";
+    var _module="modulev1";
+    var _cssPath = "http://newcss.djia.cc/resources/v1/css";
+    var _imgPath = "http://newimg.djia.cc/resources/v1/images";
+    var _musicPath = "/resources/v1/music";
+    var _skin = "v1";
+    var _expressionPath = "/resources/expressions/";
+    var _currentUserID = "2841726663848577866";
+    var _currentUserName="小邻通管理员";
+    var _currentCompanyID="778913468791490474930525";
+    var _currentCompanyName="新江湾小邻通";
+    var _currentCompanyLogo="4681699472807446889";
+    var _companyInfoID="7789134687914904749";
+    var _ifShowFriendSetting="";
+    var _systemPropertiesTypesID="outerEnterprise";
+    var _currentCompanyCategory = "2";
+    var _currentUserWeiboValid="";
+    var _currentUserTencentWeiboValid="";
+    var _currentContactSetType = "2";
+    var _canModifyEP = "";
+    var _sessionID="CAA90E06012973DAF517287142DBF723.s11";
+    var _currentCompanyColInfoFormID = "1398354158732592783";
+    var _isNeedPropmtColInfo = "0";
+    var _currentTime = "1460432283540";
+    var _company_can_send_message = "true";
+    var _companyinfo_can_send_message = "true";
+    var _company_can_upload_file = "true";
+    var _companyinfo_can_upload_file = "true";
+    var _company_can_add_person = "true";
+    var _companyinfo_can_add_person = "true";
+    var _managemerContactType = "";
+    var _companyInfoID = "7789134687914904749";
+    var _isCustom = "true";
+    var _canJoinCompany_companyID ="";
+    var _canJoinCompany_companyName ="";
+    var COMPANY_INVITE_TYPE ="1";
+    var COMPANY_PRODUCT_TYPE = "0";
+    var _CURRENT_PERSON_IS_ROLE_INNER_SUPER_ADMIN = "false";
+    var _CURRENT_PERSON_IS_ROLE_INNER_MAINTAIN_ADMIN  ="false";
+    var _CURRENT_USER_NEEDGUIDE = "2";
+    var _httpBasePath=_ctxPath;
+    var _ssl="";
+    //var _wbURL="https://api.weibo.com/oauth2/authorize?client_id=1798525390&redirect_uri=http://localhost:8080/c5/weibo/getWeiboCode.action&response_type=code&state=";  //"https://api.weibo.com/oauth2/authorize?client_id=3317925827&redirect_uri=/weibo/getWeiboCode.action&response_type=code&state=&forcelogin=true";
+    var _wbURL="https://api.weibo.com/oauth2/authorize?client_id=3317925827&redirect_uri=/weibo/getWeiboCode.action&response_type=code&state=&forcelogin=true";
+    var _tcWbURL="https://open.t.qq.com/cgi-bin/oauth2/authorize?client_id=801332607&response_type=code&redirect_uri=/tencentweibo/getWeiboCode.action";
+    var  _ccPersonID ;
+    var  _ccCompanyID;
+    var sendWeibo="none";
+    var _SHOWINFOSETTING_TYPE_TASK_3STEP="isValid_2841726663848577866";
+    var _SHOWINFOSETTING_TYPE_COMMONPERSONTIP="";
+    var _SHOWINFOSETTING_TYPE_ADMINTIP="";
+    var _SHOWINFOSETTING_TYPE_CONSUMER_ADMIN="";
+    var _SHOWINFOSETTING_TYPE_PREVIEWMOBILEPORTAL="";
+    //企业消息提示开始
+    var _SHOWINFOSETTING_TYPE_SURPLUSREGISTERNUMTIP ="";
+    var _SHOWINFOSETTING_TYPE_SURPLUSMESSAGETIP ="";
+    var _SHOWINFOSETTING_TYPE_SURPLUSFORMSUBMITTIP = "";
+    var _SHOWINFOSETTING_TYPE_REGISTERPOWEROFFTIP = "";
+    var _SHOWINFOSETTING_TYPE_MESSAGEPOWEROFFTIP = "";
+    var _SHOWINFOSETTING_TYPE_DISKPOWEROFFTIP = "";
+    var _SHOWINFOSETTING_TYPE_SURPLUSDISKWARNING = "";
+    //企业消息提示 结束
+    //社区管理员提示消息 开始
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_REGISTERNUM = ""; //社区人员预警提示
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_DISK=""; //社区磁盘空间预警
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_MESSAGE=""; //社区短信预警提示
+
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_REGISTERNUMOFF = ""; //社区人员用尽
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_DISKOFF = "";//社区空间用尽
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_MESSAGEOFF ="";//社区短信用尽
+    //社区管理员提示消息 结束
+    //社区用尽时 企业管理员弹窗提示 开始
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_REGISTER_SUPERADMIN = "";
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_MESSAGE_SUPERADMIN = "";
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_DISK_SUPERADMIN = "";
+    //预警弹窗
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_WARNREGISTER_SUPERADMIN = "";
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_WARNMESSAGE_SUPERADMIN = "";
+    var _SHOWINFOSETTING_TYPE_COMMUNITY_WARNDISK_SUPERADMIN = "";
+    //社区用尽时 企业管理员弹窗提示 结束
+    var _remark = "";
+    var _expTradeRoleID = "";
+    
+    var isSuperAdmin="false";
+    var isCommunityAdmin="true";
+    var isCommunityStaffingAdmin="false";
+    var _freeExperienceBaseURL="http://tiyan.dajiashequ.com/";
+    var _dajiashequBaseURL="dajiashequ.com";
+    var _freeExperienceMode="false";
+    var _debugMode="false";
+    var _SERVER_URL = "http://www.dajiashequ.com";
+    var _cv="6.3.0.3";
+    var _systemRunningMode="publishedMode";
+    var _djv="6.3.0.3";
+    var _imgVersion = "6.3.0.3";
+    var _productType="0";
+    var isChrome="";
+    try{document.execCommand("BackgroundImageCache", false, true);}catch(e){};
+    var _memberURL="http://member.dajiashequ.com";
+</script>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>新江湾小邻通</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><!--屏幕宽度等于设备宽度-->
+    <meta content="blue" name="apple-mobile-web-app-status-bar-style"/>
+    <!--指定的iphone中safari顶端的状态条的样式-->
+    <meta content="telephone=no" name="format-detection"/>
+    <!--ios告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+    <meta HTTP-EQUIV="expires" CONTENT="0">
+    <link rel="stylesheet" href="css/common20150324.css?v=1666">
+    <link rel="stylesheet" href="css/common_fontApp.css?v=1666"/>
+    <link rel="stylesheet" href="css/mCommon20150108.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_frameContent0.css?v=1666">
+    <link rel="stylesheet" href="css/idangerous.swiper.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_basicListLine.css?v=1666">
+    <!--行-->
+    <link rel="stylesheet" href="css/mCommon_basicListFrame.css?v=1666">
+    <!--框架容器-->
+    <link rel="stylesheet" href="css/mCommon_basicMessage.css?v=1666">
+    <!--小圆豆-->
+    <link rel="stylesheet" href="css/mCommon_controlListBlockApp1.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_controlListBlockApp2.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_controlListBlockApp3.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_controlListBlockApp4.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_controlListBlockApp5.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_basicListBlockList1.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_basicListBlockList2.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_basicListBlockList3.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_basicListBlockList4.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_basicListBlockListNone.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_controlListBlockListGroup1.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_controlListBlockListGroup2.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_basicIcon60Failed.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_basicLoading.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_controlListBlockLoading.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_basicTitlePortal.css?v=1666"/>
+    <link rel="stylesheet" href="css/mCommon_basicSeperatePortal.css?v=1666"/>
+    <link rel="stylesheet" href="css/mCommon_basicShopItemPortal.css?v=1666"/>
+    <link rel="stylesheet" href="css/mApp_setting.css?v=1666">
+
+
+    <link rel="stylesheet" href="css/mCommon_basicBtn.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_basicBtn32.css?v=1666"/>
+    <link rel="stylesheet" href="css/mCommon_basicIcon80Failed.css?v=1666"/>
+    <link rel="stylesheet" href="css/mCommon_basicIcon100Info.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_controlPrompt.css?v=1666">
+    <link rel="stylesheet" href="css/mCommon_frameContent15.css?v=1666"/>
+    <script src="js/jquery-1.11.0.min.js?v=1666"></script><!--基础js-->
+    <script src="js/fastclick.js?v=1666"></script><!--移动点击js-->
+    <script src="js/mCommon20150212.js?v=1666"></script>
+    <script src="js/mCommon_basicLoading.js?v=1666"></script>
+    <script src="js/mCommon_controlPrompt.js?v=1666"></script>
+    <script src="js/idangerous.swiper.js?v=20150601?v=1666"></script><!--轮播-->
+    <!--轮播-->
+    <script src="js/jdajia.js?v=1666"></script>
+    <script src="js/stringCut.js?v=1666"></script><!--多行文字截取-->
+    <script src="js/mImgCut.js?v=1666"></script><!--缩放图片并剪裁-->
+    <script src="js/mCommon_jsPageAutoSize.js?v=1666"></script><!--转换rem-->
+    <script src="js/appConfigure20151020_mobile.js?v=1666"></script><!--手机页面 含有执行 曹雁写-->
+    <script src="js/portalPcManage.js?v=1666"></script><!--数据填充-->
+    
+    <script src="js/mDataCallBack.js?v=1666"></script><!--数据填充-->
+    <script>
+        var _ctxPath = "";
+        var web = new Web();
+        var ppm = new PortalPcManage();
+        $().ready(function () {
+            var option = {
+                    currentCompanyID : $("#currentCompanyID").val(),
+                    isCanImportCommodity : $("#isCanImportCommodity").val()
+            };
+            $.extend(true,ppm.setting,option);
+            mCommon_jsPageAutoSize($(".mCommon_frameContent0_page"));//页面容器
+            $(".mCommon_frameContent0_page").css("visibility", "visible");
+            web.init();
+        });
+    </script>
+
+</head>
+<body>
+<!--移动页面引入-->
+<div class="mCommon_frameContent0_page" style="visibility: hidden;">
+<input type="hidden" id="currentCompanyID" value="778913468791490474930525">
+<input type="hidden" id="isCanImportCommodity" value="">
+    <!--此处插入头部-->
+    <!--手机信息-->
+    <div class="backendStaff_appConfigure_center_mobileInfo"
+         style="background-color:rgb(62,72,89);">
+        <a class="backendStaff_appConfigure_center_btnTheme"><em class="common_icon16_theme"><!--主题--></em></a>
+    </div>
+    <!--手机信息-->
+    
+    <div class="appBox mCommon_frameContent0_content backendStaff_appConfigure_content">
+        <div class="mApp_setting mApp_setting_noSpacingOpacity">
+            
+            
+                <!--添加行-->
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                            <!--行 轮播图-->
+                            
+<div class="mCommon_basicListLine" portalType="scrollImg" portalRowType="PORTALROWTYPE_CAROUSEL_FIGURE">
+    <!--轮播-->
+    
+    <div class="mApp_setting_swiperWrapper swiper926494EF8300-49DD-A468-0EBE3794B765" id="swiper926494EF8300-49DD-A468-0EBE3794B765">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                
+                    <div class="swiper-slide">
+                        
+                            
+                            
+                                <a href="javascript:void(0)" target="_blank"  url="http://app.xiaolintong.com/m/site.action?id=8608054410833839711">
+                                    <img style="width: 100%"  picID="726194900137167249" />
+                                </a>
+                            
+                        
+                    </div>
+                
+                    <div class="swiper-slide">
+                        
+                            
+                            
+                                <a href="javascript:void(0)" target="_blank"  url="http://app.xiaolintong.com/m/goToShowFeedDetail.action?sID=2857564916389268510">
+                                    <img style="width: 100%"  picID="4801849795744842800" />
+                                </a>
+                            
+                        
+                    </div>
+                
+            </div>
+        </div>
+        <div class="pagination"></div>
+    </div>
+    <!--轮播end-->
+</div>
+                            <!--行end-->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <!--行 应用入口4-->
+                            
+
+<!--行 应用入口4-->
+<div class="mCommon_basicListLine" portalRowType="PORTALROWTYPE_APPLAY_4">
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        <!--应用:一行四列，四块内容-->
+        <div class="mCommon_basicListFrame_appCol4 clearfixOverflow">
+        
+        
+        
+            <div class="mCommon_basicListFrame_appCol4_col1">
+                <div class="mCommon_basicListFrame_appCol4_col1Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255, 255, 255,0.9"
+         style="background-color:rgba(255, 255, 255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="3296397413389716778"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_group_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102, 102, 102);" class="mCommon_controlListBlockApp3_title textCut">服务大厅</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col2">
+                <div class="mCommon_basicListFrame_appCol4_col2Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255, 255, 255,1.0"
+         style="background-color:rgba(255, 255, 255,1.0);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="4193244187737081582"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_educationSchedule_gray" style="color:rgb(250, 151, 37)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102, 102, 102);" class="mCommon_controlListBlockApp3_title textCut">社区黄页</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col3">
+                <div class="mCommon_basicListFrame_appCol4_col3Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255, 255, 255,1.0"
+         style="background-color:rgba(255, 255, 255,1.0);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="2102987594992209522"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_levelTest_gray" style="color:rgb(230, 69, 74)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102, 102, 102);" class="mCommon_controlListBlockApp3_title textCut">社区商城</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col4">
+                <div class="mCommon_basicListFrame_appCol4_col4Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255, 255, 255,0.9"
+         style="background-color:rgba(255, 255, 255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="7372462702857505010"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_league_gray" style="color:rgb(230, 69, 74)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102, 102, 102);" class="mCommon_controlListBlockApp3_title textCut">我的社区</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+        </div>
+        <!--应用:一行四列，四块内容end-->
+    </div>
+    <!--框架end-->
+</div>
+
+                            <!--行 应用入口4 end-->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <!--行 应用入口4-->
+                            
+
+<!--行 应用入口4-->
+<div class="mCommon_basicListLine" portalRowType="PORTALROWTYPE_APPLAY_4">
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        <!--应用:一行四列，四块内容-->
+        <div class="mCommon_basicListFrame_appCol4 clearfixOverflow">
+        
+        
+        
+            <div class="mCommon_basicListFrame_appCol4_col1">
+                <div class="mCommon_basicListFrame_appCol4_col1Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255, 255, 255,0.9"
+         style="background-color:rgba(255, 255, 255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="437619471274560425"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_studentUnion_gray" style="color:rgb(43, 202, 217)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102, 102, 102);" class="mCommon_controlListBlockApp3_title textCut">培训班</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col2">
+                <div class="mCommon_basicListFrame_appCol4_col2Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,1.0"
+         style="background-color:rgba(255,255,255,1.0);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="8140879567038795101"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_educationalConsulting_gray" style="color:rgb(115, 191, 77)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102, 102, 102);" class="mCommon_controlListBlockApp3_title textCut">亲子营</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col3">
+                <div class="mCommon_basicListFrame_appCol4_col3Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255, 255, 255,0.9"
+         style="background-color:rgba(255, 255, 255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="7218032546461401760"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_repair_gray" style="color:rgb(69, 149, 230)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102, 102, 102);" class="mCommon_controlListBlockApp3_title textCut">工具箱</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col4">
+                <div class="mCommon_basicListFrame_appCol4_col4Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255, 255, 255,0.9"
+         style="background-color:rgba(255, 255, 255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="2128318760237748169"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_show_gray" style="color:rgb(43, 202, 217)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">生活助手</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+        </div>
+        <!--应用:一行四列，四块内容end-->
+    </div>
+    <!--框架end-->
+</div>
+
+                            <!--行 应用入口4 end-->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            
+
+
+<!--行 服务推送大图-->
+<div class="mCommon_basicListLine" portalType="list"
+     applyElementId="sm_menu_group"
+     portalRowType="PORTALROWTYPE_LIST_GROUP_VERTICAL">
+    <!--标题-->
+    <div class="mCommon_basicListTitle"
+         style="background: rgba(247, 247, 247,0.2);">
+        <h3 class="textCut" style="color: rgb(115, 191, 77);">
+            ▎邻居群组
+        </h3>
+    </div>
+    <!--标题end-->
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        
+        
+        
+            
+
+<!--列表:纵向Start-->
+<div class="mCommon_basicListFrame_listVertical clearfixOverflow feed_list"
+     portalRowID="BE26BC0A4AE8-48A5-B5B2-A8FDB76DB340" title=""
+     count="" portalRowType="PORTALROWTYPE_LIST_GROUP_VERTICAL"
+     companyMenuID="sm.menu.group"
+     uniqueCode="sm.menu.group"
+     topicPresetID=""
+     right_send="" >
+</div>
+<!--列表:纵向end-->
+
+        
+    
+
+        <div class="mCommon_basicListFrame_listVerticalRow" id="_common_no_content_template">
+            <!--空-->
+            <div class="mCommon_basicListBlockListNone">
+                <div class="mCommon_basicListBlockListNone_cont">
+                    <div class="mCommon_basicListBlockListNone_icon">
+                        <em class="commonIconSend32_phone_white"> <!--应用名称1--> </em>
+                    </div>
+                    <p id="_tip_content" style="display: none">期待内容</p>
+                    <a href="javascript:void(0)" id="_btn_content" style="display: none"></a>
+                </div>
+            </div>
+            <!--空 end-->
+        </div>
+    </div>
+    <!--框架end-->
+    <!--更多-->
+    <div class="mCommon_basicListMore" tapClass="" style="display: none">
+        <a href="javascript:void(0)">查看更多 <em>&gt;</em></a>
+    </div>
+    <!--更多end-->
+</div>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            
+
+
+<!--行 服务推送大图-->
+<div class="mCommon_basicListLine" portalType="list"
+     applyElementId="4368971511313219642"
+     portalRowType="PORTALROWTYPE_LIST_SERVICE_PUSH_RIGHT_PICTRUE">
+    <!--标题-->
+    <div class="mCommon_basicListTitle"
+         style="background: rgba(256,256,256,0.1);">
+        <h3 class="textCut" style="color: rgb(230, 69, 74);">
+            ▎新江湾资讯
+        </h3>
+    </div>
+    <!--标题end-->
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        
+        
+        
+            
+
+<!--列表:纵向Start-->
+<div class="mCommon_basicListFrame_listVertical clearfixOverflow feed_list"
+     portalRowID="1F7D5DDD9EEF-47B7-AD79-46D44BADBD40" title="▎新江湾资讯"
+     count="8" portalRowType="PORTALROWTYPE_LIST_SERVICE_PUSH_RIGHT_PICTRUE"
+     companyMenuID="4368971511313219642"
+     uniqueCode="sm.menu.richtext"
+     topicPresetID="9125849323235265518"
+     right_send="FALSE" >
+</div>
+<!--列表:纵向end-->
+
+        
+    
+
+        <div class="mCommon_basicListFrame_listVerticalRow" id="_common_no_content_template">
+            <!--空-->
+            <div class="mCommon_basicListBlockListNone">
+                <div class="mCommon_basicListBlockListNone_cont">
+                    <div class="mCommon_basicListBlockListNone_icon">
+                        <em class="commonIconSend32_phone_white"> <!--应用名称1--> </em>
+                    </div>
+                    <p id="_tip_content" style="display: none">期待内容</p>
+                    <a href="javascript:void(0)" id="_btn_content" style="display: none"></a>
+                </div>
+            </div>
+            <!--空 end-->
+        </div>
+    </div>
+    <!--框架end-->
+    <!--更多-->
+    <div class="mCommon_basicListMore" tapClass="" style="display: none">
+        <a href="javascript:void(0)">查看更多 <em>&gt;</em></a>
+    </div>
+    <!--更多end-->
+</div>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <div class="mCommon_basicListLine" portalRowType="PORTALROWTYPE_TITLE">
+                                <!--标题-->
+                                <div class="mCommon_basicTitlePortal" portaltype="title"
+                                     style="background: rgba(256,256,256, 0.1);">
+                                    <h3 class="textCut" style="color: rgb(250, 151, 37);">
+                                            ▎社区贴吧
+                                    </h3>
+                                </div>
+                                <!--标题end-->
+                            </div>
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <!--行 应用入口4-->
+                            
+
+<!--行 应用入口4-->
+<div class="mCommon_basicListLine" portalRowType="PORTALROWTYPE_APPLAY_4">
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        <!--应用:一行四列，四块内容-->
+        <div class="mCommon_basicListFrame_appCol4 clearfixOverflow">
+        
+        
+        
+            <div class="mCommon_basicListFrame_appCol4_col1">
+                <div class="mCommon_basicListFrame_appCol4_col1Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,1.0"
+         style="background-color:rgba(255,255,255,1.0);"
+         uniqueCode="shareInfo" portaltype="enter" 
+         tagID="4306008135571295877"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(115, 191, 77);">
+                                <em class="common_iconLeft26_broadcast_gray" style="color:rgb(255, 255, 255)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">综合广告</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col2">
+                <div class="mCommon_basicListFrame_appCol4_col2Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255, 255, 255,1.0"
+         style="background-color:rgba(255, 255, 255,1.0);"
+         uniqueCode="shareInfo" portaltype="enter" 
+         tagID="553869711216430400"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(250, 151, 37);">
+                                <em class="common_iconLeft26_shits_gray" style="color:rgb(255, 255, 255)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102, 102, 102);" class="mCommon_controlListBlockApp3_title textCut">二手交易</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col3">
+                <div class="mCommon_basicListFrame_appCol4_col3Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="shareInfo" portaltype="enter" 
+         tagID="149131809694764005"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(230, 69, 74);">
+                                <em class="common_iconLeft26_shopManage_gray" style="color:rgb(255, 255, 255)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">邻家小铺</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col4">
+                <div class="mCommon_basicListFrame_appCol4_col4Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="4696564168416905889"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(69, 149, 230);">
+                                <em class="common_iconLeft26_blog_gray" style="color:rgb(255,255,255)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">我要投稿</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+        </div>
+        <!--应用:一行四列，四块内容end-->
+    </div>
+    <!--框架end-->
+</div>
+
+                            <!--行 应用入口4 end-->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            
+
+
+<!--行 服务推送大图-->
+<div class="mCommon_basicListLine" portalType="list"
+     applyElementId="1224471591039618736"
+     portalRowType="PORTALROWTYPE_LIST_SERVICE_PUSH_RIGHT_PICTRUE">
+    <!--标题-->
+    <div class="mCommon_basicListTitle"
+         style="background: rgba(256,256,256,0.1);">
+        <h3 class="textCut" style="color: rgb(230, 69, 74);">
+            ▎推荐信息
+        </h3>
+    </div>
+    <!--标题end-->
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        
+        
+        
+            
+
+<!--列表:纵向Start-->
+<div class="mCommon_basicListFrame_listVertical clearfixOverflow feed_list"
+     portalRowID="07BE21E808D1-4D22-A690-12B9ACBFCF8A" title="推荐信息"
+     count="3" portalRowType="PORTALROWTYPE_LIST_SERVICE_PUSH_RIGHT_PICTRUE"
+     companyMenuID="1224471591039618736"
+     uniqueCode="sm.menu.richtext"
+     topicPresetID="3046060026934149463"
+     right_send="FALSE" >
+</div>
+<!--列表:纵向end-->
+
+        
+    
+
+        <div class="mCommon_basicListFrame_listVerticalRow" id="_common_no_content_template">
+            <!--空-->
+            <div class="mCommon_basicListBlockListNone">
+                <div class="mCommon_basicListBlockListNone_cont">
+                    <div class="mCommon_basicListBlockListNone_icon">
+                        <em class="commonIconSend32_phone_white"> <!--应用名称1--> </em>
+                    </div>
+                    <p id="_tip_content" style="display: none">期待内容</p>
+                    <a href="javascript:void(0)" id="_btn_content" style="display: none"></a>
+                </div>
+            </div>
+            <!--空 end-->
+        </div>
+    </div>
+    <!--框架end-->
+    <!--更多-->
+    <div class="mCommon_basicListMore" tapClass="" style="display: none">
+        <a href="javascript:void(0)">查看更多 <em>&gt;</em></a>
+    </div>
+    <!--更多end-->
+</div>
+
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <div class="mCommon_basicListLine" portalRowType="PORTALROWTYPE_TITLE">
+                                <!--标题-->
+                                <div class="mCommon_basicTitlePortal" portaltype="title"
+                                     style="background: rgba(217, 217, 217, 0.1);">
+                                    <h3 class="textCut" style="color: rgb(52, 209, 175);">
+                                            ▎社区服务
+                                    </h3>
+                                </div>
+                                <!--标题end-->
+                            </div>
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <!--行 应用入口4-->
+                            
+
+<!--行 应用入口4-->
+<div class="mCommon_basicListLine" portalRowType="PORTALROWTYPE_APPLAY_4">
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        <!--应用:一行四列，四块内容-->
+        <div class="mCommon_basicListFrame_appCol4 clearfixOverflow">
+        
+        
+        
+            <div class="mCommon_basicListFrame_appCol4_col1">
+                <div class="mCommon_basicListFrame_appCol4_col1Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255, 255, 255,0.9"
+         style="background-color:rgba(255, 255, 255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="6466120741956570382"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_show_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102, 102, 102);" class="mCommon_controlListBlockApp3_title textCut">家政服务</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col2">
+                <div class="mCommon_basicListFrame_appCol4_col2Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="6590182442780806672"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_shopManage_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">房屋维修</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col3">
+                <div class="mCommon_basicListFrame_appCol4_col3Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="3802691016626816013"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_repair_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">家电维修</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col4">
+                <div class="mCommon_basicListFrame_appCol4_col4Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="7772982400487474061"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_onlineClass_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">电脑维修</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+        </div>
+        <!--应用:一行四列，四块内容end-->
+    </div>
+    <!--框架end-->
+</div>
+
+                            <!--行 应用入口4 end-->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <!--行 应用入口4-->
+                            
+
+<!--行 应用入口4-->
+<div class="mCommon_basicListLine" portalRowType="PORTALROWTYPE_APPLAY_4">
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        <!--应用:一行四列，四块内容-->
+        <div class="mCommon_basicListFrame_appCol4 clearfixOverflow">
+        
+        
+        
+            <div class="mCommon_basicListFrame_appCol4_col1">
+                <div class="mCommon_basicListFrame_appCol4_col1Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="4470407546659031089"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_mobileportal_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">搬家服务</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col2">
+                <div class="mCommon_basicListFrame_appCol4_col2Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="1462904092110833803"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_plugInTrade_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">上门修锁</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col3">
+                <div class="mCommon_basicListFrame_appCol4_col3Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="4526286510151581878"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_group_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">居家服务</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col4">
+                <div class="mCommon_basicListFrame_appCol4_col4Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="3248637829622677737"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_courseManage_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">居家定制</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+        </div>
+        <!--应用:一行四列，四块内容end-->
+    </div>
+    <!--框架end-->
+</div>
+
+                            <!--行 应用入口4 end-->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <!--行 应用入口4-->
+                            
+
+<!--行 应用入口4-->
+<div class="mCommon_basicListLine" portalRowType="PORTALROWTYPE_APPLAY_4">
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        <!--应用:一行四列，四块内容-->
+        <div class="mCommon_basicListFrame_appCol4 clearfixOverflow">
+        
+        
+        
+            <div class="mCommon_basicListFrame_appCol4_col1">
+                <div class="mCommon_basicListFrame_appCol4_col1Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="2336917520449750363"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_activityApply_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">防水补漏</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col2">
+                <div class="mCommon_basicListFrame_appCol4_col2Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="5559898568261846662"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_Weibo_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">管道疏通</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col3">
+                <div class="mCommon_basicListFrame_appCol4_col3Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="8960778928450455185"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_default_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">墙壁粉刷</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col4">
+                <div class="mCommon_basicListFrame_appCol4_col4Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="5522127594774872636"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_circularize_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">清洗保养</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+        </div>
+        <!--应用:一行四列，四块内容end-->
+    </div>
+    <!--框架end-->
+</div>
+
+                            <!--行 应用入口4 end-->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            <!--行 应用入口4-->
+                            
+
+<!--行 应用入口4-->
+<div class="mCommon_basicListLine" portalRowType="PORTALROWTYPE_APPLAY_4">
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        <!--应用:一行四列，四块内容-->
+        <div class="mCommon_basicListFrame_appCol4 clearfixOverflow">
+        
+        
+        
+            <div class="mCommon_basicListFrame_appCol4_col1">
+                <div class="mCommon_basicListFrame_appCol4_col1Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="372759529269052598"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_classSituation_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">木工</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col2">
+                <div class="mCommon_basicListFrame_appCol4_col2Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="7206028471457762086"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_classSituation_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">泥水匠</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col3">
+                <div class="mCommon_basicListFrame_appCol4_col3Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="6285880318774428125"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_classSituation_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">油漆工</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+            <div class="mCommon_basicListFrame_appCol4_col4">
+                <div class="mCommon_basicListFrame_appCol4_col4Wrapper">
+                    
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp3_tapClass" aaa="255,255,255,0.9"
+         style="background-color:rgba(255,255,255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="1476711239963001035"
+         class="mCommon_controlListBlockApp3  ">
+        
+        
+            <div class="mCommon_controlListBlockApp3_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp3_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp3_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp3_icon"
+                                style="background-color:rgb(255, 255, 255);">
+                                <em class="common_iconLeft26_classSituation_gray" style="color:rgb(52, 209, 175)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    </tr><tr>
+                    <td>
+                        <p style="color:rgb(102,102,102);" class="mCommon_controlListBlockApp3_title textCut">水电工</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                </div>
+            </div>
+            
+        
+        </div>
+        <!--应用:一行四列，四块内容end-->
+    </div>
+    <!--框架end-->
+</div>
+
+                            <!--行 应用入口4 end-->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                            <!--行 应用入口1+1-->
+                            
+<div class="mCommon_basicListLine" portalRowType="PORTALROWTYPE_APPLAY_1AND1">
+    <!--框架-->
+    <div class="mCommon_basicListFrameWrapper">
+        <!--应用:一行两列，两块内容-->
+        <div class="mCommon_basicListFrame_appCol2 clearfixOverflow">
+            
+            
+            
+                <div class="mCommon_basicListFrame_appCol2_col1">
+                    <div class="mCommon_basicListFrame_appCol2_col1Wrapper">
+                        
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp1_tapClass" aaa="255, 255, 255,0.9"
+         style="background-color:rgba(255, 255, 255,0.9);"
+         uniqueCode="sm.menu.link" portaltype="enter" 
+         tagID="1413390049895728814"
+         class="mCommon_controlListBlockApp1  ">
+        
+        
+            <div class="mCommon_controlListBlockApp1_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp1_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp1_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp1_icon"
+                                >
+                                <em class="common_iconLeft26_group_gray" style="color:rgb(250, 151, 37)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    
+                    <td>
+                        <p style="color:rgb(250, 151, 37);" class="mCommon_controlListBlockApp1_title textCut">更多服务</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                    </div>
+                </div>
+                
+            
+                <div class="mCommon_basicListFrame_appCol2_col2">
+                    <div class="mCommon_basicListFrame_appCol2_col2Wrapper">
+                        
+
+
+
+
+    <div tapclass="mCommon_controlListBlockApp1_tapClass" aaa="255, 255, 255,1.0"
+         style="background-color:rgba(255, 255, 255,1.0);"
+         uniqueCode="sm.menu.mobile.phone" portaltype="enter" 
+         tagID="2919533079850860771"
+         class="mCommon_controlListBlockApp1  ">
+        
+        
+            <div class="mCommon_controlListBlockApp1_spacing left"></div><!--左间距-->
+            <div class="mCommon_controlListBlockApp1_spacing right"></div><!--右间距-->
+            <!--块内容1-->
+            <table>
+                <tbody>
+                <tr>
+                    <td class="mCommon_controlListBlockApp1_iconWrapper">
+                        
+                        
+                            
+                            <!--图标-->
+                            <div class="mCommon_controlListBlockApp1_icon"
+                                >
+                                <em class="common_iconLeft26_hotline_gray" style="color:rgb(250, 151, 37)"></em>
+                            </div>
+                            
+                        
+                    </td>
+                    
+                    <td>
+                        <p style="color:rgb(250, 151, 37);" class="mCommon_controlListBlockApp1_title textCut">呼叫客服</p>
+                        
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        
+        <!--块内容1end-->
+        <div class="mCommon_basicMessageApp" style="display:none"></div><!--应用消息-->
+    </div>
+
+
+                    </div>
+                </div>
+                
+            
+        </div>
+        <!--应用:一行两列，两块内容end-->
+    </div>
+    <!--框架end-->
+</div>
+                            <!--行 应用入口1+1end-->
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                    
+                    
+                    
+                    
+                    
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                            
+                        
+                        
+                        
+                    
+                
+            
+            
+        </div>
+    </div>
+    <!--此处插入尾部-->
+</div>
+<!--移动页面引入 end-->
+<!--隐藏区域-=================================================-->
+<div id="lineDemoBox"
+     style="position:absolute; right:10px; top:10px; border:#000 3px solid; width: 320px; padding:10px;z-index:999; background: #fff; display:none"
+     demo="line">
+    <div class="mApp_setting mApp_setting_spacingOpacity ">
+        <!--默认为无间距和透明度主题mApp_setting_noSpacingOpacity，有间距透明度主题为mApp_setting_spacingOpacity-->
+        <!--此处插入各种行-->
+        <!--列表，左图右文Item-->
+        <div class="mCommon_basicListFrame_listVerticalRow" itemType="PORTALROWTYPE_LIST_SERVICE_PUSH_LEFT_PICTRUE">
+            <div class="mCommon_basicListBlockList1 clearfixOverflow" tapClass="mCommon_basicListBlockList1_tapClass">
+                <div class="mCommon_basicListBlockList1_imgAndInfo">
+                    <div class="mCommon_basicListBlockList1_img"><img src="images/picture_default.png" id="_face_pic"/></div>
+                    <div class="mCommon_basicListBlockList1_info">
+                        <h3 id="_feed_title"></h3>
+
+                        <p id="_feed_content"></p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        <!--列表，左图右文Item-->
+
+        <!--列表，左文右图Item-->
+        <div class="mCommon_basicListFrame_listVerticalRow" itemType="PORTALROWTYPE_LIST_SERVICE_PUSH_RIGHT_PICTRUE">
+            <!--列表，左文右图-->
+            <div class="mCommon_basicListBlockList3 clearfixOverflow" tapClass="mCommon_basicListBlockList3_tapClass">
+                <div class="mCommon_basicListBlockList3_imgAndInfo">
+                    <div class="mCommon_basicListBlockList3_img"><img src="images/picture_default.png" id="_face_pic"/></div>
+                    <div class="mCommon_basicListBlockList3_info">
+                        <h3 id="_feed_title"></h3>
+
+                        <p id="_feed_content"></p>
+                    </div>
+                </div>
+                
+            </div>
+            <!--列表，左文右图end-->
+        </div>
+        <!--列表，左文右图Item end-->
+
+        <!--行 服务推送大图 Item-->
+        <div class="mCommon_basicListFrame_listVerticalRow" itemType="PORTALROWTYPE_LIST_SERVICE_PUSH_BIG_PICTRUE">
+            <!--列表，上图下文-->
+            <div class="mCommon_basicListBlockList4 clearfixOverflow" tapClass="mCommon_basicListBlockList4_tapClass">
+                <div class="mCommon_basicListBlockList4_imgAndInfo">
+                    <div class="mCommon_basicListBlockList4_img"><img src="images/picture_default.png" id="_face_pic"/></div>
+                    <div class="mCommon_basicListBlockList4_info">
+                        <h3 id="_feed_title"></h3>
+
+                        <p id="_feed_content"></p>
+                    </div>
+                </div>
+                
+            </div>
+            <!--列表，上图下文end-->
+        </div>
+        <!--行 服务推送大图 Item end-->
+
+        <!--行 信息流列表 Item-->
+        <div class="mCommon_basicListFrame_listVerticalRow" itemType="PORTALROWTYPE_LIST_LOOP">
+            <!--列表，左图右文，大字-->
+            <div class="mCommon_basicListBlockList2 clearfixOverflow" tapClass="mCommon_basicListBlockList2_tapClass">
+                <div class="mCommon_basicListBlockList2_imgAndInfo">
+                    <div class="mCommon_basicListBlockList2_img"><img src="images/person_default.png" id="person_pic"/></div>
+                    <div class="mCommon_basicListBlockList2_info">
+                        <p><span class="mCommon_basicListBlockList2_name"></span>
+                            <span class="mCommon_basicListBlockList2_infoDetail" id="_feed_content"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--列表，左图右文，大字end-->
+        </div>
+        <!--行 信息流列表 Item end-->
+
+
+        <!--行 群组列表垂直 Item-->
+        <div class="mCommon_basicListFrame_listVerticalRow" itemType="PORTALROWTYPE_LIST_GROUP_VERTICAL">
+            <!--（群组）左图右文，带豆-->
+            <div class="mCommon_controlListBlockListGroup1 clearfixOverflow"
+                 tapClass="mCommon_controlListBlockListGroup1_tapClass">
+                <div class="mCommon_controlListBlockListGroup1_imgAndInfo">
+                    <div class="mCommon_controlListBlockListGroup1_img">
+                        <img id="_group_logo" src="images/group_default.png"/>
+
+                        <div class="mCommon_basicMessageList" style="display:none"></div><!--群组消息-->
+                    </div>
+                    <div class="mCommon_controlListBlockListGroup1_info">
+                        <h3 class="textCut  groupName"></h3>
+
+                        <p class="textCut feedDetail"></p>
+                    </div>
+                </div>
+            </div>
+            <!--（群组）左图右文，带豆end-->
+        </div>
+
+
+        <!--行 群组列表水平 Item-->
+        <!--（群组）上图下文，带豆-->
+        <div class="mCommon_controlListBlockListGroup2 clearfixOverflow"
+             tapClass="mCommon_controlListBlockListGroup2_tapClass" itemType="PORTALROWTYPE_LIST_GROUP_HORIZONTAL">
+            <div class="mCommon_controlListBlockListGroup2_imgAndInfo">
+                <div class="mCommon_controlListBlockListGroup2_img">
+                    <img src="images/group_default.png" id="_group_logo"/>
+
+                    <div class="mCommon_basicMessageList" style="display:none"></div><!--群组消息-->
+                </div>
+                <div class="mCommon_controlListBlockListGroup2_info">
+                    <h3 class="groupContent">群组名称</h3>
+                </div>
+            </div>
+        </div>
+        <!--（群组）上图下文，带豆end-->
+        <!--行 群组列表水平 Item End-->
+
+        <!--行 电商列表 Item-->
+        <div class="mCommon_basicListFrame_listVerticalRow" itemType="PORTALROWTYPE_LIST_STORE">
+            <!--商品1-->
+            <div class="mCommon_basicShopItemPortal clearfixOverflow"
+                 tapclass="mCommon_basicShopItemPortal_tapClass">
+                <div class="mCommon_basicShopItemPortalSoldOut">卖光了</div>
+                <div class="mCommon_basicShopItemPortal_imgAndInfo">
+                    <div class="mCommon_basicShopItemPortal_img">
+                        <img src="images/picture_default.png" id="product_pic">
+                    </div>
+                    <div class="mCommon_basicShopItemPortal_info">
+                        <h3></h3>
+
+                        <div class="mCommon_basicShopItemPortal_money">
+                            <span></span>
+                        </div>
+                        <div class="mCommon_basicShopItemPortal_distance">&gt;3km</div>
+                    </div>
+                </div>
+            </div>
+            <!--商品1end-->
+        </div>
+        <!--行 电商列表 end-->
+        <!--此处插入各种行 end-->
+    </div>
+
+    <!--列表:纵向-->
+    <!--第一行-->
+    <div class="mCommon_basicListFrame_listVerticalRow"
+         id="_common_no_content_template">
+        <!--空-->
+        <div class="mCommon_basicListBlockListNone">
+            <div class="mCommon_basicListBlockListNone_cont">
+                <div class="mCommon_basicListBlockListNone_icon">
+                    <em class="commonIconSend32_phone_white"> <!--应用名称1--> </em>
+                </div>
+                <p id="_tip_content"></p>
+                <a href="javascript:void(0)" id="_btn_content"></a>
+            </div>
+        </div>
+        <!--空 end-->
+    </div>
+    <!--第一行end-->
+    <!--列表:纵向end-->
+
+</div>
+</body>
+</html>
