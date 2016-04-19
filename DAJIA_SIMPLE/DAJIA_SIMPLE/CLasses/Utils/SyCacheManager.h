@@ -11,7 +11,6 @@
 @interface SyCacheManager : NSObject
 + (SyCacheManager *)sharedSyCacheManager;
 
-
 + (SyCacheManager *)sharedSyCacheManager;
 
 @property(nonatomic, assign, readonly) BOOL formalExisted;

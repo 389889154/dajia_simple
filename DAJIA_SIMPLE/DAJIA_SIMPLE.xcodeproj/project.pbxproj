@@ -16,6 +16,23 @@
 		F6045C0D1CAD0255006BDA6F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6045C0C1CAD0255006BDA6F /* RegisterViewController.m */; };
 		F625FDC51CC4FA1300DC3A62 /* SyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F625FDC41CC4FA1300DC3A62 /* SyBaseViewController.m */; };
 		F625FDC81CC5003F00DC3A62 /* SyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F625FDC71CC5003F00DC3A62 /* SyBaseView.m */; };
+		F629CB8D1CC5DC2400A7B334 /* SyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CB8C1CC5DC2400A7B334 /* SyAlertView.m */; };
+		F629CB901CC5DFBE00A7B334 /* SyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CB8F1CC5DFBE00A7B334 /* SyTabBarController.m */; };
+		F629CB931CC5E05B00A7B334 /* SyBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CB921CC5E05B00A7B334 /* SyBaseTabBarController.m */; };
+		F629CB9C1CC5E27100A7B334 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CB9B1CC5E27100A7B334 /* UIColor+Category.m */; };
+		F629CB9F1CC5E2E200A7B334 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CB9E1CC5E2E200A7B334 /* NSString+Size.m */; };
+		F629CBA21CC5E32300A7B334 /* UILabel+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBA11CC5E32300A7B334 /* UILabel+Size.m */; };
+		F629CBA51CC5E3BD00A7B334 /* UINavigationController+SyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBA41CC5E3BD00A7B334 /* UINavigationController+SyNavigationController.m */; };
+		F629CBA81CC5E44E00A7B334 /* NSDate+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBA71CC5E44E00A7B334 /* NSDate+convenience.m */; };
+		F629CBAB1CC5E4D100A7B334 /* NSString+SyString.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBAA1CC5E4D100A7B334 /* NSString+SyString.m */; };
+		F629CBAE1CC5E55300A7B334 /* UIImage+SyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBAD1CC5E55300A7B334 /* UIImage+SyImage.m */; };
+		F629CBB11CC5E5BD00A7B334 /* UIView+SyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBB01CC5E5BD00A7B334 /* UIView+SyView.m */; };
+		F629CBB41CC5E60800A7B334 /* UIImagePickerController+SyImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBB31CC5E60800A7B334 /* UIImagePickerController+SyImagePickerController.m */; };
+		F629CBB71CC5E65600A7B334 /* NSArray+SyArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBB61CC5E65600A7B334 /* NSArray+SyArray.m */; };
+		F629CBBA1CC5E6BC00A7B334 /* UIWebView+JavaScriptAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBB91CC5E6BC00A7B334 /* UIWebView+JavaScriptAlert.m */; };
+		F629CBBD1CC5E78700A7B334 /* UIControl+Monitor.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBBC1CC5E78700A7B334 /* UIControl+Monitor.m */; };
+		F629CBC01CC5E80D00A7B334 /* NSNull+OVNatural.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBBF1CC5E80D00A7B334 /* NSNull+OVNatural.m */; };
+		F629CBC31CC5E84600A7B334 /* UIScrollView+AllowPanGestureEventPass.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBC21CC5E84600A7B334 /* UIScrollView+AllowPanGestureEventPass.m */; };
 		F6A3D10B1CBBC27200C2AE22 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A3D10A1CBBC27200C2AE22 /* MineViewController.m */; };
 		F6A3D10E1CBBC27F00C2AE22 /* NotifacationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A3D10D1CBBC27F00C2AE22 /* NotifacationViewController.m */; };
 		F6A3D1121CBBC29900C2AE22 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A3D1111CBBC29900C2AE22 /* DiscoverViewController.m */; };
@@ -50,6 +67,40 @@
 		F625FDC61CC5003F00DC3A62 /* SyBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyBaseView.h; sourceTree = "<group>"; };
 		F625FDC71CC5003F00DC3A62 /* SyBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyBaseView.m; sourceTree = "<group>"; };
 		F625FDCD1CC503A500DC3A62 /* ShThirdPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShThirdPart.h; sourceTree = "<group>"; };
+		F629CB8B1CC5DC2400A7B334 /* SyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyAlertView.h; sourceTree = "<group>"; };
+		F629CB8C1CC5DC2400A7B334 /* SyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyAlertView.m; sourceTree = "<group>"; };
+		F629CB8E1CC5DFBE00A7B334 /* SyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyTabBarController.h; sourceTree = "<group>"; };
+		F629CB8F1CC5DFBE00A7B334 /* SyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyTabBarController.m; sourceTree = "<group>"; };
+		F629CB911CC5E05B00A7B334 /* SyBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyBaseTabBarController.h; sourceTree = "<group>"; };
+		F629CB921CC5E05B00A7B334 /* SyBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyBaseTabBarController.m; sourceTree = "<group>"; };
+		F629CB9A1CC5E27100A7B334 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
+		F629CB9B1CC5E27100A7B334 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
+		F629CB9D1CC5E2E200A7B334 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		F629CB9E1CC5E2E200A7B334 /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		F629CBA01CC5E32300A7B334 /* UILabel+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Size.h"; sourceTree = "<group>"; };
+		F629CBA11CC5E32300A7B334 /* UILabel+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Size.m"; sourceTree = "<group>"; };
+		F629CBA31CC5E3BD00A7B334 /* UINavigationController+SyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SyNavigationController.h"; sourceTree = "<group>"; };
+		F629CBA41CC5E3BD00A7B334 /* UINavigationController+SyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SyNavigationController.m"; sourceTree = "<group>"; };
+		F629CBA61CC5E44E00A7B334 /* NSDate+convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+convenience.h"; sourceTree = "<group>"; };
+		F629CBA71CC5E44E00A7B334 /* NSDate+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+convenience.m"; sourceTree = "<group>"; };
+		F629CBA91CC5E4D100A7B334 /* NSString+SyString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SyString.h"; sourceTree = "<group>"; };
+		F629CBAA1CC5E4D100A7B334 /* NSString+SyString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SyString.m"; sourceTree = "<group>"; };
+		F629CBAC1CC5E55300A7B334 /* UIImage+SyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SyImage.h"; sourceTree = "<group>"; };
+		F629CBAD1CC5E55300A7B334 /* UIImage+SyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SyImage.m"; sourceTree = "<group>"; };
+		F629CBAF1CC5E5BD00A7B334 /* UIView+SyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SyView.h"; sourceTree = "<group>"; };
+		F629CBB01CC5E5BD00A7B334 /* UIView+SyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SyView.m"; sourceTree = "<group>"; };
+		F629CBB21CC5E60800A7B334 /* UIImagePickerController+SyImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+SyImagePickerController.h"; sourceTree = "<group>"; };
+		F629CBB31CC5E60800A7B334 /* UIImagePickerController+SyImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+SyImagePickerController.m"; sourceTree = "<group>"; };
+		F629CBB51CC5E65600A7B334 /* NSArray+SyArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SyArray.h"; sourceTree = "<group>"; };
+		F629CBB61CC5E65600A7B334 /* NSArray+SyArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SyArray.m"; sourceTree = "<group>"; };
+		F629CBB81CC5E6BC00A7B334 /* UIWebView+JavaScriptAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+JavaScriptAlert.h"; sourceTree = "<group>"; };
+		F629CBB91CC5E6BC00A7B334 /* UIWebView+JavaScriptAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+JavaScriptAlert.m"; sourceTree = "<group>"; };
+		F629CBBB1CC5E78700A7B334 /* UIControl+Monitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Monitor.h"; sourceTree = "<group>"; };
+		F629CBBC1CC5E78700A7B334 /* UIControl+Monitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Monitor.m"; sourceTree = "<group>"; };
+		F629CBBE1CC5E80D00A7B334 /* NSNull+OVNatural.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+OVNatural.h"; sourceTree = "<group>"; };
+		F629CBBF1CC5E80D00A7B334 /* NSNull+OVNatural.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+OVNatural.m"; sourceTree = "<group>"; };
+		F629CBC11CC5E84600A7B334 /* UIScrollView+AllowPanGestureEventPass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+AllowPanGestureEventPass.h"; sourceTree = "<group>"; };
+		F629CBC21CC5E84600A7B334 /* UIScrollView+AllowPanGestureEventPass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+AllowPanGestureEventPass.m"; sourceTree = "<group>"; };
 		F6A3D1091CBBC27200C2AE22 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		F6A3D10A1CBBC27200C2AE22 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		F6A3D10C1CBBC27F00C2AE22 /* NotifacationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifacationViewController.h; sourceTree = "<group>"; };
@@ -193,12 +244,9 @@
 		F6045C001CAD00E6006BDA6F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F6E79AEB1CAE233400DEE882 /* Sh_UDID_UUID_Tools.h */,
-				F6E79AEC1CAE233400DEE882 /* Sh_UDID_UUID_Tools.m */,
-				F6E27C161CC0B99D00CD6E52 /* SyCacheManager.h */,
-				F6E27C171CC0B99D00CD6E52 /* SyCacheManager.m */,
-				F6E27C191CC0D95700CD6E52 /* SyFileManager.h */,
-				F6E27C1A1CC0D95700CD6E52 /* SyFileManager.m */,
+				F629CB961CC5E1F700A7B334 /* Tools */,
+				F629CB951CC5E1E600A7B334 /* Managers */,
+				F629CB941CC5E1D200A7B334 /* Categories */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -233,6 +281,7 @@
 		F625FDC01CC4E99300DC3A62 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				F629CB8A1CC5DBF900A7B334 /* CommonView */,
 				F625FDC21CC4E9DC00DC3A62 /* BaseVC */,
 				F625FDC11CC4E9CF00DC3A62 /* BaseView */,
 			);
@@ -253,8 +302,76 @@
 			children = (
 				F625FDC31CC4FA1300DC3A62 /* SyBaseViewController.h */,
 				F625FDC41CC4FA1300DC3A62 /* SyBaseViewController.m */,
+				F629CB911CC5E05B00A7B334 /* SyBaseTabBarController.h */,
+				F629CB921CC5E05B00A7B334 /* SyBaseTabBarController.m */,
 			);
 			name = BaseVC;
+			sourceTree = "<group>";
+		};
+		F629CB8A1CC5DBF900A7B334 /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				F629CB8B1CC5DC2400A7B334 /* SyAlertView.h */,
+				F629CB8C1CC5DC2400A7B334 /* SyAlertView.m */,
+				F629CB8E1CC5DFBE00A7B334 /* SyTabBarController.h */,
+				F629CB8F1CC5DFBE00A7B334 /* SyTabBarController.m */,
+			);
+			name = CommonView;
+			sourceTree = "<group>";
+		};
+		F629CB941CC5E1D200A7B334 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F629CB9A1CC5E27100A7B334 /* UIColor+Category.h */,
+				F629CB9B1CC5E27100A7B334 /* UIColor+Category.m */,
+				F629CB9D1CC5E2E200A7B334 /* NSString+Size.h */,
+				F629CB9E1CC5E2E200A7B334 /* NSString+Size.m */,
+				F629CBA01CC5E32300A7B334 /* UILabel+Size.h */,
+				F629CBA11CC5E32300A7B334 /* UILabel+Size.m */,
+				F629CBA31CC5E3BD00A7B334 /* UINavigationController+SyNavigationController.h */,
+				F629CBA41CC5E3BD00A7B334 /* UINavigationController+SyNavigationController.m */,
+				F629CBA61CC5E44E00A7B334 /* NSDate+convenience.h */,
+				F629CBA71CC5E44E00A7B334 /* NSDate+convenience.m */,
+				F629CBA91CC5E4D100A7B334 /* NSString+SyString.h */,
+				F629CBAA1CC5E4D100A7B334 /* NSString+SyString.m */,
+				F629CBAC1CC5E55300A7B334 /* UIImage+SyImage.h */,
+				F629CBAD1CC5E55300A7B334 /* UIImage+SyImage.m */,
+				F629CBAF1CC5E5BD00A7B334 /* UIView+SyView.h */,
+				F629CBB01CC5E5BD00A7B334 /* UIView+SyView.m */,
+				F629CBB21CC5E60800A7B334 /* UIImagePickerController+SyImagePickerController.h */,
+				F629CBB31CC5E60800A7B334 /* UIImagePickerController+SyImagePickerController.m */,
+				F629CBB51CC5E65600A7B334 /* NSArray+SyArray.h */,
+				F629CBB61CC5E65600A7B334 /* NSArray+SyArray.m */,
+				F629CBB81CC5E6BC00A7B334 /* UIWebView+JavaScriptAlert.h */,
+				F629CBB91CC5E6BC00A7B334 /* UIWebView+JavaScriptAlert.m */,
+				F629CBBB1CC5E78700A7B334 /* UIControl+Monitor.h */,
+				F629CBBC1CC5E78700A7B334 /* UIControl+Monitor.m */,
+				F629CBBE1CC5E80D00A7B334 /* NSNull+OVNatural.h */,
+				F629CBBF1CC5E80D00A7B334 /* NSNull+OVNatural.m */,
+				F629CBC11CC5E84600A7B334 /* UIScrollView+AllowPanGestureEventPass.h */,
+				F629CBC21CC5E84600A7B334 /* UIScrollView+AllowPanGestureEventPass.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		F629CB951CC5E1E600A7B334 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F6E27C161CC0B99D00CD6E52 /* SyCacheManager.h */,
+				F6E27C171CC0B99D00CD6E52 /* SyCacheManager.m */,
+				F6E27C191CC0D95700CD6E52 /* SyFileManager.h */,
+				F6E27C1A1CC0D95700CD6E52 /* SyFileManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		F629CB961CC5E1F700A7B334 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F6E79AEB1CAE233400DEE882 /* Sh_UDID_UUID_Tools.h */,
+				F6E79AEC1CAE233400DEE882 /* Sh_UDID_UUID_Tools.m */,
+			);
+			name = Tools;
 			sourceTree = "<group>";
 		};
 		F6A3D1051CBBC1D700C2AE22 /* MainVC */ = {
@@ -440,16 +557,33 @@
 			files = (
 				F6045C0D1CAD0255006BDA6F /* RegisterViewController.m in Sources */,
 				F6A3D1121CBBC29900C2AE22 /* DiscoverViewController.m in Sources */,
+				F629CBC01CC5E80D00A7B334 /* NSNull+OVNatural.m in Sources */,
+				F629CB931CC5E05B00A7B334 /* SyBaseTabBarController.m in Sources */,
 				F6E27C181CC0B99D00CD6E52 /* SyCacheManager.m in Sources */,
+				F629CB9F1CC5E2E200A7B334 /* NSString+Size.m in Sources */,
 				F6A3D10B1CBBC27200C2AE22 /* MineViewController.m in Sources */,
 				F6A3D1161CBBC2B000C2AE22 /* MainViewController.m in Sources */,
 				F6045C0A1CAD0248006BDA6F /* LoginViewController.m in Sources */,
+				F629CBBA1CC5E6BC00A7B334 /* UIWebView+JavaScriptAlert.m in Sources */,
 				F6DA6E811CC5D067008B07E5 /* AppDelegate.m in Sources */,
+				F629CBC31CC5E84600A7B334 /* UIScrollView+AllowPanGestureEventPass.m in Sources */,
+				F629CB8D1CC5DC2400A7B334 /* SyAlertView.m in Sources */,
 				F6E79AED1CAE233400DEE882 /* Sh_UDID_UUID_Tools.m in Sources */,
 				F625FDC81CC5003F00DC3A62 /* SyBaseView.m in Sources */,
 				F6A3D10E1CBBC27F00C2AE22 /* NotifacationViewController.m in Sources */,
+				F629CB901CC5DFBE00A7B334 /* SyTabBarController.m in Sources */,
+				F629CBA21CC5E32300A7B334 /* UILabel+Size.m in Sources */,
+				F629CBB41CC5E60800A7B334 /* UIImagePickerController+SyImagePickerController.m in Sources */,
+				F629CB9C1CC5E27100A7B334 /* UIColor+Category.m in Sources */,
 				F625FDC51CC4FA1300DC3A62 /* SyBaseViewController.m in Sources */,
+				F629CBAE1CC5E55300A7B334 /* UIImage+SyImage.m in Sources */,
+				F629CBA51CC5E3BD00A7B334 /* UINavigationController+SyNavigationController.m in Sources */,
+				F629CBB11CC5E5BD00A7B334 /* UIView+SyView.m in Sources */,
+				F629CBA81CC5E44E00A7B334 /* NSDate+convenience.m in Sources */,
+				F629CBB71CC5E65600A7B334 /* NSArray+SyArray.m in Sources */,
+				F629CBBD1CC5E78700A7B334 /* UIControl+Monitor.m in Sources */,
 				F6E27C201CC0E70300CD6E52 /* GuidePageVIew.m in Sources */,
+				F629CBAB1CC5E4D100A7B334 /* NSString+SyString.m in Sources */,
 				F6045BE61CACFEA8006BDA6F /* main.m in Sources */,
 				F6E27C1B1CC0D95700CD6E52 /* SyFileManager.m in Sources */,
 				F6DA6E841CC5D0FA008B07E5 /* RootViewController.m in Sources */,
@@ -567,6 +701,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DAJIA_SIMPLE/CLasses/Marcos/DAJIA_prefix.pch;
 				INFOPLIST_FILE = DAJIA_SIMPLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.luoBo.DAJIA-SIMPLE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -582,6 +717,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DAJIA_SIMPLE/CLasses/Marcos/DAJIA_prefix.pch;
 				INFOPLIST_FILE = DAJIA_SIMPLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.company.luoBo.DAJIA-SIMPLE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
