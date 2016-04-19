@@ -13,4 +13,5 @@
 #import "ShCommonUI.h"
 #import "ShDevice.h"
 #import "SyCacheManager.h"
+#import "ShThirdPart.h"
 #endif /* DAJIA_prefix_pch */

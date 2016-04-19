@@ -7,7 +7,7 @@
 //
 #import "RootViewController.h"
 #import "AppDelegate.h"
-#import "Reachability.h"
+
 #import "SyFileManager.h"
 #import "GuidePageVIew.h"
 @interface AppDelegate ()

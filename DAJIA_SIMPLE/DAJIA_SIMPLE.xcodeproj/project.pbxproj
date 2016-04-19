@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		1607CB6EB1187EBE5A005DC2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDEF3BAED531224B97E25CF /* libPods.a */; };
 		F6045BE61CACFEA8006BDA6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6045BE51CACFEA8006BDA6F /* main.m */; };
-		F6045BE91CACFEA8006BDA6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6045BE81CACFEA8006BDA6F /* AppDelegate.m */; };
 		F6045BEF1CACFEA8006BDA6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6045BED1CACFEA8006BDA6F /* Main.storyboard */; };
 		F6045BF11CACFEA8006BDA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6045BF01CACFEA8006BDA6F /* Assets.xcassets */; };
 		F6045BF41CACFEA8006BDA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6045BF21CACFEA8006BDA6F /* LaunchScreen.storyboard */; };
-		F6045C051CAD0178006BDA6F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6045C041CAD0178006BDA6F /* RootViewController.m */; };
 		F6045C0A1CAD0248006BDA6F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6045C091CAD0248006BDA6F /* LoginViewController.m */; };
 		F6045C0D1CAD0255006BDA6F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6045C0C1CAD0255006BDA6F /* RegisterViewController.m */; };
 		F625FDC51CC4FA1300DC3A62 /* SyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F625FDC41CC4FA1300DC3A62 /* SyBaseViewController.m */; };
@@ -23,6 +21,8 @@
 		F6A3D1121CBBC29900C2AE22 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A3D1111CBBC29900C2AE22 /* DiscoverViewController.m */; };
 		F6A3D1161CBBC2B000C2AE22 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A3D1151CBBC2B000C2AE22 /* MainViewController.m */; };
 		F6A3D15E1CBFAF7B00C2AE22 /* 778913468791490474930525_portal.html in Resources */ = {isa = PBXBuildFile; fileRef = F6A3D15D1CBFAF7B00C2AE22 /* 778913468791490474930525_portal.html */; };
+		F6DA6E811CC5D067008B07E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DA6E801CC5D067008B07E5 /* AppDelegate.m */; };
+		F6DA6E841CC5D0FA008B07E5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DA6E831CC5D0FA008B07E5 /* RootViewController.m */; };
 		F6E27C181CC0B99D00CD6E52 /* SyCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E27C171CC0B99D00CD6E52 /* SyCacheManager.m */; };
 		F6E27C1B1CC0D95700CD6E52 /* SyFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E27C1A1CC0D95700CD6E52 /* SyFileManager.m */; };
 		F6E27C201CC0E70300CD6E52 /* GuidePageVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = F6E27C1F1CC0E70300CD6E52 /* GuidePageVIew.m */; };
@@ -36,14 +36,10 @@
 		9FDEF3BAED531224B97E25CF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6045BE11CACFEA8006BDA6F /* DAJIA_SIMPLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAJIA_SIMPLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6045BE51CACFEA8006BDA6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F6045BE71CACFEA8006BDA6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
-		F6045BE81CACFEA8006BDA6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		F6045BEE1CACFEA8006BDA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6045BF01CACFEA8006BDA6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6045BF31CACFEA8006BDA6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6045BF51CACFEA8006BDA6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6045C031CAD0178006BDA6F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../ViewControllers/RootViewController.h; sourceTree = "<group>"; };
-		F6045C041CAD0178006BDA6F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../ViewControllers/RootViewController.m; sourceTree = "<group>"; };
 		F6045C081CAD0248006BDA6F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Login/LoginViewController.h; sourceTree = "<group>"; };
 		F6045C091CAD0248006BDA6F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Login/LoginViewController.m; sourceTree = "<group>"; };
 		F6045C0B1CAD0255006BDA6F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = Register/RegisterViewController.h; sourceTree = "<group>"; };
@@ -63,6 +59,10 @@
 		F6A3D1141CBBC2B000C2AE22 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		F6A3D1151CBBC2B000C2AE22 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F6A3D15D1CBFAF7B00C2AE22 /* 778913468791490474930525_portal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = 778913468791490474930525_portal.html; sourceTree = "<group>"; };
+		F6DA6E7F1CC5D067008B07E5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DAJIA_SIMPLE/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		F6DA6E801CC5D067008B07E5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DAJIA_SIMPLE/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		F6DA6E821CC5D0FA008B07E5 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = DAJIA_SIMPLE/CLasses/ViewControllers/RootViewController.h; sourceTree = SOURCE_ROOT; };
+		F6DA6E831CC5D0FA008B07E5 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = DAJIA_SIMPLE/CLasses/ViewControllers/RootViewController.m; sourceTree = SOURCE_ROOT; };
 		F6E27C161CC0B99D00CD6E52 /* SyCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyCacheManager.h; sourceTree = "<group>"; };
 		F6E27C171CC0B99D00CD6E52 /* SyCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyCacheManager.m; sourceTree = "<group>"; };
 		F6E27C191CC0D95700CD6E52 /* SyFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyFileManager.h; sourceTree = "<group>"; };
@@ -163,10 +163,10 @@
 		F6045BFD1CAD00E6006BDA6F /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				F6045BE71CACFEA8006BDA6F /* AppDelegate.h */,
-				F6045BE81CACFEA8006BDA6F /* AppDelegate.m */,
-				F6045C031CAD0178006BDA6F /* RootViewController.h */,
-				F6045C041CAD0178006BDA6F /* RootViewController.m */,
+				F6DA6E821CC5D0FA008B07E5 /* RootViewController.h */,
+				F6DA6E831CC5D0FA008B07E5 /* RootViewController.m */,
+				F6DA6E7F1CC5D067008B07E5 /* AppDelegate.h */,
+				F6DA6E801CC5D067008B07E5 /* AppDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -444,7 +444,7 @@
 				F6A3D10B1CBBC27200C2AE22 /* MineViewController.m in Sources */,
 				F6A3D1161CBBC2B000C2AE22 /* MainViewController.m in Sources */,
 				F6045C0A1CAD0248006BDA6F /* LoginViewController.m in Sources */,
-				F6045BE91CACFEA8006BDA6F /* AppDelegate.m in Sources */,
+				F6DA6E811CC5D067008B07E5 /* AppDelegate.m in Sources */,
 				F6E79AED1CAE233400DEE882 /* Sh_UDID_UUID_Tools.m in Sources */,
 				F625FDC81CC5003F00DC3A62 /* SyBaseView.m in Sources */,
 				F6A3D10E1CBBC27F00C2AE22 /* NotifacationViewController.m in Sources */,
@@ -452,7 +452,7 @@
 				F6E27C201CC0E70300CD6E52 /* GuidePageVIew.m in Sources */,
 				F6045BE61CACFEA8006BDA6F /* main.m in Sources */,
 				F6E27C1B1CC0D95700CD6E52 /* SyFileManager.m in Sources */,
-				F6045C051CAD0178006BDA6F /* RootViewController.m in Sources */,
+				F6DA6E841CC5D0FA008B07E5 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

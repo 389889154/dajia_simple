@@ -9,5 +9,7 @@
 #ifndef ShThirdPart_h
 #define ShThirdPart_h
 
-
+#import <UIKit/UIKit.h>
+#import <MBProgressHUD.h>
+#import <Reachability.h>
 #endif /* ShThirdPart_h */
