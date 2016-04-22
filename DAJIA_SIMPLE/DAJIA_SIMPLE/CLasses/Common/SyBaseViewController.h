@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class SyBaseView;
 typedef NS_ENUM(NSInteger,SyLoadWithType) {
     SyLoadWithPush,
     SyLoadWithPresent,
@@ -15,10 +16,11 @@ typedef NS_ENUM(NSInteger,SyLoadWithType) {
     SyLoadWithRoot
 };
 
-
 @interface SyBaseViewController : UIViewController
 
 @property (nonatomic, readonly) BOOL isVisible;
+
+@property (nonatomic, strong) SyBaseView *mainView;
 
 @property (nonatomic, assign) SyLoadWithType loadWithType;
 

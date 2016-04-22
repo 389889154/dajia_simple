@@ -1,20 +1,18 @@
 //
-//  SyBaseTabBarController.m
+//  SyBaseNavViewController.m
 //  DAJIA_SIMPLE
 //
 //  Created by wey on 16/4/19.
 //  Copyright © 2016年 weiSH. All rights reserved.
 //
 
-#import "SyBaseTabBarController.h"
-#import "UIColor+Category.h"
 #import "SyBaseNavViewController.h"
-#import "SyBaseNavigationController.h"
-@interface SyBaseTabBarController ()
+
+@interface SyBaseNavViewController ()
 
 @end
 
-@implementation SyBaseTabBarController
+@implementation SyBaseNavViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

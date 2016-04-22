@@ -13,8 +13,33 @@
 #define k_SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define k_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
-/** 默认键盘 */
-#define Sy_KEYBOARD_HEIGHT 216
+#define SyViewPadding UIEdgeInsetsMake(15, 15, 15, 15)
+#define SyViewMargin UIEdgeInsetsMake(10, 10, 10, 10)
+#define SyViewFeedMargin UIEdgeInsetsMake(8, 8, 8, 8)
+
+#define SyRichTextFont SyScaleFont(17)
+#define SyFwdRichTextFont SyScaleFont(16)
+#define SyCommentRichTextFont SyScaleFont(16)
+
+//---------------------------默认键盘高度
+#define SY_KEYBOARD_HEIGHT 216
+
+//---------------------------AutoLayout宏
+#define SyLayoutConstraint(view1, attr1, relation, view2, attr2, m, c) \
+[NSLayoutConstraint constraintWithItem:(view1)                       \
+attribute:(attr1)                       \
+relatedBy:(relation)                    \
+toItem:(view2)                       \
+attribute:(attr2)                       \
+multiplier:(m)                           \
+constant:(c)]
+
+#define SyArrayLayoutConstraint(formatStr, opts, metricDic, viewArr) \
+[NSLayoutConstraint constraintsWithVisualFormat:(formatStr)        \
+options:(opts)             \
+metrics:(metricDic)        \
+views:(viewArr)]
+
 
 /** 颜色宏 */
 #define RGBCOLOR(r, g, b)            \
@@ -58,10 +83,10 @@ alpha:1.0]
 #define kNavigationBarTitleFont \
 SY_414x736 ? SyFont(20) : (SY_375x667 ? SyFont(19) : SyFont(18))
 #define kNavigationBarTitleColor UIColorFromRGB(0xFFFFFF)
-
+#define SyIconFont(s) ([UIFont fontWithName:@"iconfont" size:(s)])
 #define kMargin_Width 15
 #define kWidth_ArrowButton 25
-
+#define SyFont(s) ([UIFont systemFontOfSize:(s)])
 #pragma mark - Banner
 #define kHeight_LeftListCell 57
 #define kLeftNavigationBarMaxHeight 110

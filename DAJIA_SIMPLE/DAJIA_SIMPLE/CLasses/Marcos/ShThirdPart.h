@@ -12,4 +12,5 @@
 #import <UIKit/UIKit.h>
 #import <MBProgressHUD.h>
 #import <Reachability.h>
+#import "UIView+SyView.h"
 #endif /* ShThirdPart_h */

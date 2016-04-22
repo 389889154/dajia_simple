@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface SyBaseView : UIView
+@property(nonatomic, readonly) CGRect mainFrame;
 
+- (void)setup;
+- (void)customLayoutSubviews;
+- (CGFloat)viewHeight;
+
++ (CGFloat)viewHeight;
+
+//+ (CGFloat)viewHeight:(SyFeed *)feed lines:(NSInteger)lines;
 @end

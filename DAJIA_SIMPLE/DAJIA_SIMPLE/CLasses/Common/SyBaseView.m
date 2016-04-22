@@ -9,13 +9,45 @@
 #import "SyBaseView.h"
 
 @implementation SyBaseView
+@synthesize mainFrame = _mainFrame;
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (id)initWithFrame:(CGRect)frame {
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+        [self setup];
+    }
+    return self;
 }
-*/
 
+- (CGRect)mainFrame {
+    return CGRectMake(0, 0, self.width, self.height);
+}
+
+- (void)setup {
+    //  SUBCLASS TODO
+}
+
+- (CGFloat)viewHeight {
+    return 0;
+}
+
++ (CGFloat)viewHeight {
+    return 0;
+}
+
+//+ (CGFloat)viewHeight:(SyFeed *)feed lines:(NSInteger)lines {
+//#if defined(BUILD_TEST) | defined(DEBUG)
+//    [NSException raise:@"Feed info type unknown！" format:@"%@", feed];
+//#endif
+//    return 0;
+//}
+- (void)setFrame:(CGRect)frame {
+    [super setFrame:frame];
+    [self customLayoutSubviews];
+}
+
+- (void)customLayoutSubviews {
+    //  SUBCLASS TODO
+}
 @end
