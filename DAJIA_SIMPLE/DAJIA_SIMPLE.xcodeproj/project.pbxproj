@@ -14,15 +14,14 @@
 		F6045BF41CACFEA8006BDA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6045BF21CACFEA8006BDA6F /* LaunchScreen.storyboard */; };
 		F6045C0A1CAD0248006BDA6F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6045C091CAD0248006BDA6F /* LoginViewController.m */; };
 		F6045C0D1CAD0255006BDA6F /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6045C0C1CAD0255006BDA6F /* RegisterViewController.m */; };
-		F621571B1CC734F0005ED14F /* SyGlobleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F621571A1CC734F0005ED14F /* SyGlobleManager.m */; };
 		F621571E1CC735B7005ED14F /* SyRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F621571D1CC735B7005ED14F /* SyRecordView.m */; };
 		F62157211CC767FC005ED14F /* SyFeedCreateToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F62157201CC767FC005ED14F /* SyFeedCreateToolView.m */; };
 		F62157241CC76872005ED14F /* SyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F62157231CC76872005ED14F /* SyView.m */; };
+		F6218B751CC9C0890021D3BF /* placeHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = F6218B741CC9C0890021D3BF /* placeHolder.png */; };
 		F625FDC51CC4FA1300DC3A62 /* SyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F625FDC41CC4FA1300DC3A62 /* SyBaseViewController.m */; };
 		F625FDC81CC5003F00DC3A62 /* SyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = F625FDC71CC5003F00DC3A62 /* SyBaseView.m */; };
 		F629CB8D1CC5DC2400A7B334 /* SyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CB8C1CC5DC2400A7B334 /* SyAlertView.m */; };
 		F629CB901CC5DFBE00A7B334 /* SyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CB8F1CC5DFBE00A7B334 /* SyTabBarController.m */; };
-		F629CB931CC5E05B00A7B334 /* SyBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CB921CC5E05B00A7B334 /* SyBaseTabBarController.m */; };
 		F629CB9C1CC5E27100A7B334 /* UIColor+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CB9B1CC5E27100A7B334 /* UIColor+Category.m */; };
 		F629CB9F1CC5E2E200A7B334 /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CB9E1CC5E2E200A7B334 /* NSString+Size.m */; };
 		F629CBA21CC5E32300A7B334 /* UILabel+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBA11CC5E32300A7B334 /* UILabel+Size.m */; };
@@ -72,14 +71,13 @@
 		F6045C0B1CAD0255006BDA6F /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = Register/RegisterViewController.h; sourceTree = "<group>"; };
 		F6045C0C1CAD0255006BDA6F /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = Register/RegisterViewController.m; sourceTree = "<group>"; };
 		F6045C0F1CAD0375006BDA6F /* DAJIA_prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAJIA_prefix.pch; sourceTree = "<group>"; };
-		F62157191CC734F0005ED14F /* SyGlobleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyGlobleManager.h; sourceTree = "<group>"; };
-		F621571A1CC734F0005ED14F /* SyGlobleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyGlobleManager.m; sourceTree = "<group>"; };
 		F621571C1CC735B7005ED14F /* SyRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyRecordView.h; sourceTree = "<group>"; };
 		F621571D1CC735B7005ED14F /* SyRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyRecordView.m; sourceTree = "<group>"; };
 		F621571F1CC767FC005ED14F /* SyFeedCreateToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyFeedCreateToolView.h; sourceTree = "<group>"; };
 		F62157201CC767FC005ED14F /* SyFeedCreateToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyFeedCreateToolView.m; sourceTree = "<group>"; };
 		F62157221CC76872005ED14F /* SyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyView.h; sourceTree = "<group>"; };
 		F62157231CC76872005ED14F /* SyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyView.m; sourceTree = "<group>"; };
+		F6218B741CC9C0890021D3BF /* placeHolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeHolder.png; sourceTree = "<group>"; };
 		F625FDC31CC4FA1300DC3A62 /* SyBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyBaseViewController.h; sourceTree = "<group>"; };
 		F625FDC41CC4FA1300DC3A62 /* SyBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyBaseViewController.m; sourceTree = "<group>"; };
 		F625FDC61CC5003F00DC3A62 /* SyBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyBaseView.h; sourceTree = "<group>"; };
@@ -89,8 +87,6 @@
 		F629CB8C1CC5DC2400A7B334 /* SyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyAlertView.m; sourceTree = "<group>"; };
 		F629CB8E1CC5DFBE00A7B334 /* SyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyTabBarController.h; sourceTree = "<group>"; };
 		F629CB8F1CC5DFBE00A7B334 /* SyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyTabBarController.m; sourceTree = "<group>"; };
-		F629CB911CC5E05B00A7B334 /* SyBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyBaseTabBarController.h; sourceTree = "<group>"; };
-		F629CB921CC5E05B00A7B334 /* SyBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyBaseTabBarController.m; sourceTree = "<group>"; };
 		F629CB9A1CC5E27100A7B334 /* UIColor+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Category.h"; sourceTree = "<group>"; };
 		F629CB9B1CC5E27100A7B334 /* UIColor+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Category.m"; sourceTree = "<group>"; };
 		F629CB9D1CC5E2E200A7B334 /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
@@ -269,6 +265,7 @@
 		F6045BFF1CAD00E6006BDA6F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F6218B741CC9C0890021D3BF /* placeHolder.png */,
 				F6E27C251CC0ED3000CD6E52 /* GuideImages */,
 			);
 			path = Resources;
@@ -339,8 +336,6 @@
 			children = (
 				F625FDC31CC4FA1300DC3A62 /* SyBaseViewController.h */,
 				F625FDC41CC4FA1300DC3A62 /* SyBaseViewController.m */,
-				F629CB911CC5E05B00A7B334 /* SyBaseTabBarController.h */,
-				F629CB921CC5E05B00A7B334 /* SyBaseTabBarController.m */,
 				F6FB12871CC6225C00A939B8 /* SyBaseNavViewController.h */,
 				F6FB12881CC6225C00A939B8 /* SyBaseNavViewController.m */,
 			);
@@ -412,8 +407,6 @@
 				F6E27C171CC0B99D00CD6E52 /* SyCacheManager.m */,
 				F6E27C191CC0D95700CD6E52 /* SyFileManager.h */,
 				F6E27C1A1CC0D95700CD6E52 /* SyFileManager.m */,
-				F62157191CC734F0005ED14F /* SyGlobleManager.h */,
-				F621571A1CC734F0005ED14F /* SyGlobleManager.m */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -557,6 +550,7 @@
 				F6045BF11CACFEA8006BDA6F /* Assets.xcassets in Resources */,
 				F6A3D15E1CBFAF7B00C2AE22 /* 778913468791490474930525_portal.html in Resources */,
 				F6045BEF1CACFEA8006BDA6F /* Main.storyboard in Resources */,
+				F6218B751CC9C0890021D3BF /* placeHolder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,8 +612,6 @@
 				F6045C0D1CAD0255006BDA6F /* RegisterViewController.m in Sources */,
 				F6A3D1121CBBC29900C2AE22 /* DiscoverViewController.m in Sources */,
 				F629CBC01CC5E80D00A7B334 /* NSNull+OVNatural.m in Sources */,
-				F621571B1CC734F0005ED14F /* SyGlobleManager.m in Sources */,
-				F629CB931CC5E05B00A7B334 /* SyBaseTabBarController.m in Sources */,
 				F6E27C181CC0B99D00CD6E52 /* SyCacheManager.m in Sources */,
 				F629CB9F1CC5E2E200A7B334 /* NSString+Size.m in Sources */,
 				F621571E1CC735B7005ED14F /* SyRecordView.m in Sources */,

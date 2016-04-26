@@ -20,7 +20,7 @@
 #define KHeight_ImageHeight 70
 
 #import "SyRecordView.h"
-#import "SyGlobleManager.h"
+//#import "SyGlobleManager.h"
 //#import "SyAppDelegate.h"
 #import "AppDelegate.h"
 //#import "SyFeedCreateToolView.h"

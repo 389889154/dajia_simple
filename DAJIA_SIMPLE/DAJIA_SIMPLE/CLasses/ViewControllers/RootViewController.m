@@ -22,9 +22,9 @@
     [super viewDidLoad];
     self.items = @[@[@"首页",@"发现",@"通知",@"我"],
                             @[@"",@"",@"",@""]];
-    
+    NSArray *classArr = @[NSClassFromString(@"MainViewController"),NSClassFromString(@"DiscoverViewController"),NSClassFromString(@"NotifacationViewController"),NSClassFromString(@"MineViewController")];
     for (int i = 0; i<[self.items.firstObject count]; i++) {
-        UIViewController *vc = [[UIViewController alloc]init];
+        UIViewController *vc = [[classArr[i] alloc]init];
         if (i==0) {
             vc = [[MainViewController alloc]init];
         }

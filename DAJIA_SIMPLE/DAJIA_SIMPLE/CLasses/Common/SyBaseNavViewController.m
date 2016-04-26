@@ -7,7 +7,7 @@
 //
 
 #import "SyBaseNavViewController.h"
-
+#import "SyBaseNavView.h"
 @interface SyBaseNavViewController ()
 
 @end
