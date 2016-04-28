@@ -30,6 +30,7 @@
         }
         [self addChildViewController:vc :self.items.firstObject[i] :self.items.lastObject[i]];
     }
+    self.selectedIndex = 1;
 }
 
 - (void)addChildViewController:(UIViewController *)childController :(NSString *)titile :(NSString *)img {

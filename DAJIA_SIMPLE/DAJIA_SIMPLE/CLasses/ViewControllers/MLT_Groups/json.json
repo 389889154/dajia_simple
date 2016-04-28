@@ -1,0 +1,34 @@
+{
+
+
+"cID": "778913468791490474930525",
+"refreshType": "",
+"version": null,
+"refreshURL": null,
+"sourceVersion": 10,
+"sourceURL": "http://m.dajiashequ.com/esn_mobile_down/portal/portalMainPage-v10.zip?t=1461667382803",
+"htmlID": "5200330128626631256",
+"person":{
+"name":"weish",
+"sex":"nan",
+"age":"24"
+},
+"htmlURL": "http://m.dajiashequ.com/dajia_mobile/mobile/file/download?fileID=6286881108265943909&access_token=1d38229a-d508-4d26-ab6f-1e0a94397d1a&t=1461667382848",
+"theme": {
+"portalThemeID": null,
+"className": "mApp_setting_noSpacingOpacity",
+"backgroundColor": "#edeef2",
+"backgroundImage": null,
+"titleBackGroundColor": "#3e4859",
+"titleBackGroundOpacity": 100,
+"titleColor": "#3eb38c",
+"portalThemeOrder": 9,
+"backgroudImageDefinedList": [
+"7727377239570466818",
+"7727377239570466818"
+],
+"bottomStyleType": null,
+"bottomBackgroundColor": "rgb(242,243,247)",
+"bottomTitleBackGroundOpacity": 1
+}
+}

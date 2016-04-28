@@ -1,13 +1,14 @@
 //
 //  SyConstant.h
-//  DAJIA_SIMPLE
+//  DaJia
 //
-//  Created by wey on 16/4/19.
-//  Copyright © 2016年 weiSH. All rights reserved.
+//  Created by zhengxiaofeng on 13-6-24.
+//  Copyright (c) 2013年 zhengxiaofeng. All rights reserved.
 //
 
-#ifndef SyConstant_h
-#define SyConstant_h
+#ifndef DaJia_SyConstant_h
+#define DaJia_SyConstant_h
+
 //---------------------------每次获取列表的条数
 #define kPageListSize 30
 #define kAllContactCount 10000 //这里修改成1000，每次获取1000，分页获取
@@ -417,14 +418,14 @@ kC_sInfoType_Document, kC_sInfoType_RichText]
 
 #define kchangeComunity @"changeComunity"
 
-NS_ENUM(NSInteger, SyNotificationViewType){
-    SyNoticeViewTypeUndefined,           //  @"未定义"
-    SyNoticeViewTypeNewest,  //  @"最新通知"
-    SyNoticeViewTypeAt,      //  @"@提到我的"
-    SyNoticeViewTypeComment, //  @"评论"
-    SyNoticeViewTypeRequest, //  @"请求通知"
-    SyNoticeViewTypeSystem,  //  @"系统提醒"
-};
+//NS_ENUM(NSInteger, SyNotificationViewType){
+//    SyNoticeViewTypeUndefined,           //  @"未定义"
+//    SyNoticeViewTypeNewest,  //  @"最新通知"
+//    SyNoticeViewTypeAt,      //  @"@提到我的"
+//    SyNoticeViewTypeComment, //  @"评论"
+//    SyNoticeViewTypeRequest, //  @"请求通知"
+//    SyNoticeViewTypeSystem,  //  @"系统提醒"
+//};
 //**********************************************************************//
 // 下面是方法宏
 //**********************************************************************//
@@ -560,6 +561,4 @@ const static NSString *DUANXIN = @"DUANXIN";
 const static NSString *YOUJIAN = @"YOUJIAN";
 
 typedef const NSString *SyBusinessModuleCode;
-
-
-#endif /* SyConstant_h */
+#endif

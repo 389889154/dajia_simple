@@ -29,8 +29,25 @@
     [self checkNetworkStatus];
     //检查版本
     [self checkVersion];
+    // 外观设置
+    [self setAppearance];
     return YES;
 }
+
+- (void)setAppearance {
+    UINavigationBar *navBar = [UINavigationBar appearance];
+
+        [navBar setBarTintColor:[UIColor darkGrayColor]];
+        [navBar setTintColor:[UIColor whiteColor]];
+        [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
+    UITabBar *tabBar = [UITabBar appearance];
+    [tabBar setBarTintColor:[UIColor darkGrayColor]];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithHexString:@"0x15A230"]} forState:UIControlStateSelected];
+            [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]} forState:UIControlStateNormal];
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    }
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -92,6 +109,7 @@
     
     [SyCacheManager sharedSyCacheManager].setupGuide = NO;
     [SyCacheManager sharedSyCacheManager].upgradeGuide = NO;
+    cacheAppVersion = @"跳过";
     if (!cacheAppVersion) {
         //新装App
         //所有新安装App时都回显示引导页
@@ -175,7 +193,7 @@
     }
     
     //  创建结构目录
-    [SyFileManager shareInstance];
+    [SyFileManager defaultManager]; // FIXIT
     //  请求配置链接
     [self requestServerBaseURL];
     

@@ -7,31 +7,65 @@
 //
 
 #import "NotifacationViewController.h"
-
-@interface NotifacationViewController ()
+#import "WebimageVC.h"
+static NSString *const  cellID = @"imageCell";
+@interface NotifacationViewController ()<UITableViewDataSource,UITableViewDelegate>
+@property (nonatomic, strong) NSMutableArray *titles;
+@property (nonatomic, strong) NSMutableArray *classNames;
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
 
 @implementation NotifacationViewController
 
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc]initWithFrame:self.view.frame style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        [_tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellID];
+    }
+    return _tableView;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.titles = @[].mutableCopy;
+    self.classNames = @[].mutableCopy;
+    //    [self addCell:@"Animated Image" class:@"YYImageDisplayExample"];
+    //    [self addCell:@"Progressive Image" class:@"YYImageProgressiveExample"];
+    [self addCell:@"Web Image" class:@"WebimageVC"];
+    [self.view addSubview:self.tableView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)addCell:(NSString *)title class:(NSString *)className {
+    [self.titles addObject:title];
+    [self.classNames addObject:className];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _titles.count;
 }
-*/
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID forIndexPath:indexPath];
+    cell.textLabel.text = _titles[indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSString *className = self.classNames[indexPath.row];
+    Class class = NSClassFromString(className);
+    if (class) {
+        UIViewController *ctrl = class.new;
+        ctrl.title = _titles[indexPath.row];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+
 
 @end

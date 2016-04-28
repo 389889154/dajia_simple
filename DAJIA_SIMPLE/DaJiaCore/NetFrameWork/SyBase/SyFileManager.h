@@ -1,15 +1,16 @@
 //
 //  SyFileManager.h
-//  DAJIA_SIMPLE
+//  DaJiaCore
 //
-//  Created by wey on 16/4/15.
-//  Copyright © 2016年 weiSH. All rights reserved.
+//  Created by zhengxiaofeng on 13-12-1.
+//  Copyright (c) 2013年 zhengxiaofeng. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 @interface SyFileManager : NSObject
-+(SyFileManager *)shareInstance;
+
++ (SyFileManager *)defaultManager;
 + (NSString *)createFullPath:(NSString *)aPath;
 + (NSString *)recordFilePathWithFileName:(NSString *)fileName
                                cleanFlag:(BOOL)flag;
@@ -135,6 +136,4 @@
  */
 - (NSString *)folderSizeStringAtPath:(NSString *)folderPath;
 - (NSString *)folderSizeStringAtPaths:(NSArray *)array;
-
-
 @end

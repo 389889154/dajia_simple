@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *  PresetMenuParam缓存发生变化的通知
+ */
+#define SyCurrentCommunityID [SyCacheManager sharedSyCacheManager].communityID
+#define SyCurrentPersonID [SyCacheManager sharedSyCacheManager].personID
 @interface SyCacheManager : NSObject
 + (SyCacheManager *)sharedSyCacheManager;
 
-+ (SyCacheManager *)sharedSyCacheManager;
 
 @property(nonatomic, assign, readonly) BOOL formalExisted;
 
