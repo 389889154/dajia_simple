@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface RentTableViewController : UITableViewController
+@property (nonatomic, assign) NSInteger sectionNumber;
+@property (nonatomic, strong) NSMutableArray *dataArray;
+@property (nonatomic, copy) Class cellClass;
+@property (nonatomic, copy) Class nextClass;
 
 @end

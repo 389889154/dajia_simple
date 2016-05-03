@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ShImageBtn : UIButton
-
+@property (nonatomic, copy) NSString *imageName;
+@property (nonatomic, copy) NSString *title;
 @end

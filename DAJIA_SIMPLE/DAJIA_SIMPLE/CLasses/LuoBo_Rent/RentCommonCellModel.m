@@ -9,5 +9,13 @@
 #import "RentCommonCellModel.h"
 
 @implementation RentCommonCellModel
-
+- (instancetype)initWithTitle:(NSString *)title imageName:(NSString *)imageName targetClass:(Class)targetClass {
+    
+    if (self = [super init]) {
+        self.title = title;
+        self.imageName = imageName;
+        self.targetClass = targetClass;
+    }
+    return self;
+}
 @end

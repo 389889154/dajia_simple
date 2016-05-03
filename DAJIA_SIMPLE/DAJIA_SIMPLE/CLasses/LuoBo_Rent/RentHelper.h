@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+#define kPlaceHolderIMG [UIImage imageNamed:@"RentPlaceHolder"]
+
 @interface RentHelper : NSObject
+
+@property (nonatomic, strong) NSArray *rentNotificationData;
+
 
 @end

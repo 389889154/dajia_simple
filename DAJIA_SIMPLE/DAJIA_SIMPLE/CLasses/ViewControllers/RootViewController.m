@@ -11,6 +11,7 @@
 #import "MainViewController.h"
 #import "DiscoverViewController.h"
 #import "NotifacationViewController.h"
+#import "ShRentViewController.h"
 @interface RootViewController ()
 @property (nonatomic, strong) NSArray *items;
 
@@ -20,9 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.items = @[@[@"首页",@"发现",@"通知",@"我"],
+    self.items = @[@[@"首页",@"发现",@"通知",@"我/Money"],
                             @[@"",@"",@"",@""]];
-    NSArray *classArr = @[NSClassFromString(@"MainViewController"),NSClassFromString(@"DiscoverViewController"),NSClassFromString(@"NotifacationViewController"),NSClassFromString(@"MineViewController")];
+    NSArray *classArr = @[NSClassFromString(@"MainViewController"),NSClassFromString(@"DiscoverViewController"),NSClassFromString(@"NotifacationViewController"),NSClassFromString(@"ShRentViewController")];
     for (int i = 0; i<[self.items.firstObject count]; i++) {
         UIViewController *vc = [[classArr[i] alloc]init];
         if (i==0) {
@@ -30,7 +31,7 @@
         }
         [self addChildViewController:vc :self.items.firstObject[i] :self.items.lastObject[i]];
     }
-    self.selectedIndex = 1;
+    self.selectedIndex = 3;
 }
 
 - (void)addChildViewController:(UIViewController *)childController :(NSString *)titile :(NSString *)img {
@@ -41,6 +42,7 @@
     [self addChildViewController:nvc];
 
 }
+
 
 
 

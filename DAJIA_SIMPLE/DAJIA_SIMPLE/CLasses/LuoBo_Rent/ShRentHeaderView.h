@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShRentHeaderView : UIView
+@class ImageBtnModel;
 
+@interface ShRentHeaderView : UIView
+@property (nonatomic, strong) NSArray *btnModels;
+@property (nonatomic, copy) void(^clickedBLock)(NSInteger index);
+@end
+
+@interface ImageBtnModel : NSObject
+
+@property (nonatomic, copy) NSString *title;
+@property (nonatomic, copy) NSString *imageName;
+@property (nonatomic, copy) Class targetClass;
+
+- (instancetype)initWithTitle:(NSString *)title imageName:(NSString *)imageName targetClass:(Class)targetClass;
 @end

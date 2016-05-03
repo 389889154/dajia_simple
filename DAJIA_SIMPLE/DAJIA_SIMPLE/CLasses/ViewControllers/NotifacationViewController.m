@@ -7,7 +7,8 @@
 //
 
 #import "NotifacationViewController.h"
-#import "WebimageVC.h"
+//#import "WebimageVC.h"
+//#import "WBStatusTimelineViewController.h"
 static NSString *const  cellID = @"imageCell";
 @interface NotifacationViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) NSMutableArray *titles;
@@ -32,12 +33,13 @@ static NSString *const  cellID = @"imageCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.titles = @[].mutableCopy;
-    self.classNames = @[].mutableCopy;
-    //    [self addCell:@"Animated Image" class:@"YYImageDisplayExample"];
-    //    [self addCell:@"Progressive Image" class:@"YYImageProgressiveExample"];
-    [self addCell:@"Web Image" class:@"WebimageVC"];
-    [self.view addSubview:self.tableView];
+//    self.titles = @[].mutableCopy;
+//    self.classNames = @[].mutableCopy;
+//    //    [self addCell:@"Animated Image" class:@"YYImageDisplayExample"];
+//    //    [self addCell:@"Progressive Image" class:@"YYImageProgressiveExample"];
+//    [self addCell:@"加载纯图片" class:@"WebimageVC"];
+//    [self addCell:@"微博" class:@"WBStatusTimelineViewController"];
+//    [self.view addSubview:self.tableView];
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {

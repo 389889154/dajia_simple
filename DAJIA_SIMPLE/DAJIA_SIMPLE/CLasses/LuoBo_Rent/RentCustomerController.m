@@ -7,7 +7,8 @@
 //
 
 #import "RentCustomerController.h"
-
+#import "RentCommonCell.h"
+#import "FooViewController.h"
 @interface RentCustomerController ()
 
 @end
@@ -16,22 +17,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.cellClass = [RentBaseCell class];
+    NSMutableArray *arrM = [NSMutableArray array];
+    for (int i = 0; i<63; i++) {
+        [arrM addObject:@"北京萝卜互联网产业投资有限公司"];
+    }
+    self.dataArray = arrM;
+    self.nextClass = [FooViewController class];
+    self.sectionNumber = 1;
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

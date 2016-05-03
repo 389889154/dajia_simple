@@ -10,12 +10,33 @@
 
 @implementation ShBaseTableView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+
+-(instancetype)initWithFrame:(CGRect)frame {
+    self.delaysContentTouches = NO;
+    self.canCancelContentTouches = YES;
+    self.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
+    // 移除 触碰延时
+    UIView *wrapView = self.subviews.firstObject;
+    // UItableViewWrapperView
+    if (wrapView && [NSStringFromClass(wrapView.class) hasSuffix:@"WrapperView"]) {
+        for (UIGestureRecognizer *gesture in wrapView.gestureRecognizers) {
+            // UIScrollViewDelayedTouchesBeganGestureRecognizer
+            if ([NSStringFromClass(gesture.class) containsString:@"DelayedTouchesBegan"] ) {
+                gesture.enabled = NO;
+                break;
+            }
+        }
+    }
+    return self;
 }
-*/
+
+- (BOOL)touchesShouldCancelInContentView:(UIView *)view {
+    if ([view isKindOfClass:[UIControl class]]) {
+        return YES;
+    }
+    return [super touchesShouldCancelInContentView:view];
+}
+
 
 @end
