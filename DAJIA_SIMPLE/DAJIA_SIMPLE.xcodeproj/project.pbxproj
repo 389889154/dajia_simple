@@ -13,6 +13,7 @@
 		F6045BF11CACFEA8006BDA6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6045BF01CACFEA8006BDA6F /* Assets.xcassets */; };
 		F6045BF41CACFEA8006BDA6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6045BF21CACFEA8006BDA6F /* LaunchScreen.storyboard */; };
 		F6045C0A1CAD0248006BDA6F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6045C091CAD0248006BDA6F /* LoginViewController.m */; };
+		F60BF6091CD36CBF00B6678E /* RentRoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60BF6081CD36CBF00B6678E /* RentRoomController.m */; };
 		F621571E1CC735B7005ED14F /* SyRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = F621571D1CC735B7005ED14F /* SyRecordView.m */; };
 		F62157211CC767FC005ED14F /* SyFeedCreateToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F62157201CC767FC005ED14F /* SyFeedCreateToolView.m */; };
 		F62157241CC76872005ED14F /* SyView.m in Sources */ = {isa = PBXBuildFile; fileRef = F62157231CC76872005ED14F /* SyView.m */; };
@@ -37,8 +38,6 @@
 		F629CBC31CC5E84600A7B334 /* UIScrollView+AllowPanGestureEventPass.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBC21CC5E84600A7B334 /* UIScrollView+AllowPanGestureEventPass.m */; };
 		F629CBC61CC5EA9C00A7B334 /* SyBaseControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBC51CC5EA9C00A7B334 /* SyBaseControl.m */; };
 		F629CBC91CC5EAF400A7B334 /* SyFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = F629CBC81CC5EAF400A7B334 /* SyFaceView.m */; };
-		F65F9D5E1CCF67DA002F32F0 /* WebImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F65F9D5D1CCF67DA002F32F0 /* WebImageTableViewCell.m */; };
-		F65F9D611CCF67ED002F32F0 /* WebimageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F65F9D601CCF67ED002F32F0 /* WebimageVC.m */; };
 		F6A3D10B1CBBC27200C2AE22 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A3D10A1CBBC27200C2AE22 /* MineViewController.m */; };
 		F6A3D10E1CBBC27F00C2AE22 /* NotifacationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A3D10D1CBBC27F00C2AE22 /* NotifacationViewController.m */; };
 		F6A3D1121CBBC29900C2AE22 /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A3D1111CBBC29900C2AE22 /* DiscoverViewController.m */; };
@@ -79,6 +78,20 @@
 		F6FB128D1CC624D500A939B8 /* SyBaseNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FB128C1CC624D500A939B8 /* SyBaseNavView.m */; };
 		F6FB12901CC6253900A939B8 /* SyNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FB128F1CC6253900A939B8 /* SyNavigationBar.m */; };
 		F6FB12931CC62B9000A939B8 /* SyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FB12921CC62B9000A939B8 /* SyButton.m */; };
+		F6FE31371CD1F496003A2F11 /* ShRentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE31361CD1F496003A2F11 /* ShRentViewController.m */; };
+		F6FE313C1CD1F525003A2F11 /* ShBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE313B1CD1F525003A2F11 /* ShBaseTableView.m */; };
+		F6FE313F1CD1F74F003A2F11 /* RentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE313E1CD1F74F003A2F11 /* RentHelper.m */; };
+		F6FE31431CD1F8C6003A2F11 /* ShImageBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE31421CD1F8C6003A2F11 /* ShImageBtn.m */; };
+		F6FE31461CD1F95C003A2F11 /* ShRentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE31451CD1F95C003A2F11 /* ShRentHeaderView.m */; };
+		F6FE31481CD1FC38003A2F11 /* RentPlaceHolder.png in Resources */ = {isa = PBXBuildFile; fileRef = F6FE31471CD1FC38003A2F11 /* RentPlaceHolder.png */; };
+		F6FE314B1CD1FE09003A2F11 /* FooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE314A1CD1FE09003A2F11 /* FooViewController.m */; };
+		F6FE314F1CD21504003A2F11 /* ShBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE314E1CD21504003A2F11 /* ShBaseTableViewCell.m */; };
+		F6FE31571CD21E78003A2F11 /* RentNotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE31561CD21E78003A2F11 /* RentNotificationModel.m */; };
+		F6FE31661CD223E8003A2F11 /* RentCommonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE31651CD223E8003A2F11 /* RentCommonCell.m */; };
+		F6FE31691CD225CF003A2F11 /* RentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE31681CD225CF003A2F11 /* RentTableViewController.m */; };
+		F6FE31711CD22C20003A2F11 /* RentInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE31701CD22C20003A2F11 /* RentInfoViewController.m */; };
+		F6FE31741CD22E66003A2F11 /* RentCommonCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE31731CD22E66003A2F11 /* RentCommonCellModel.m */; };
+		F6FE31771CD23052003A2F11 /* RentCustomerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FE31761CD23052003A2F11 /* RentCustomerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +107,8 @@
 		F6045C081CAD0248006BDA6F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Login/LoginViewController.h; sourceTree = "<group>"; };
 		F6045C091CAD0248006BDA6F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Login/LoginViewController.m; sourceTree = "<group>"; };
 		F6045C0F1CAD0375006BDA6F /* DAJIA_prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAJIA_prefix.pch; sourceTree = "<group>"; };
+		F60BF6071CD36CBF00B6678E /* RentRoomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentRoomController.h; sourceTree = "<group>"; };
+		F60BF6081CD36CBF00B6678E /* RentRoomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentRoomController.m; sourceTree = "<group>"; };
 		F621571C1CC735B7005ED14F /* SyRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyRecordView.h; sourceTree = "<group>"; };
 		F621571D1CC735B7005ED14F /* SyRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyRecordView.m; sourceTree = "<group>"; };
 		F621571F1CC767FC005ED14F /* SyFeedCreateToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyFeedCreateToolView.h; sourceTree = "<group>"; };
@@ -142,10 +157,6 @@
 		F629CBC51CC5EA9C00A7B334 /* SyBaseControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyBaseControl.m; sourceTree = "<group>"; };
 		F629CBC71CC5EAF400A7B334 /* SyFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyFaceView.h; sourceTree = "<group>"; };
 		F629CBC81CC5EAF400A7B334 /* SyFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyFaceView.m; sourceTree = "<group>"; };
-		F65F9D5C1CCF67DA002F32F0 /* WebImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebImageTableViewCell.h; sourceTree = "<group>"; };
-		F65F9D5D1CCF67DA002F32F0 /* WebImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebImageTableViewCell.m; sourceTree = "<group>"; };
-		F65F9D5F1CCF67ED002F32F0 /* WebimageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebimageVC.h; sourceTree = "<group>"; };
-		F65F9D601CCF67ED002F32F0 /* WebimageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebimageVC.m; sourceTree = "<group>"; };
 		F6A3D1091CBBC27200C2AE22 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		F6A3D10A1CBBC27200C2AE22 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		F6A3D10C1CBBC27F00C2AE22 /* NotifacationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotifacationViewController.h; sourceTree = "<group>"; };
@@ -224,6 +235,33 @@
 		F6FB128F1CC6253900A939B8 /* SyNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyNavigationBar.m; sourceTree = "<group>"; };
 		F6FB12911CC62B9000A939B8 /* SyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyButton.h; sourceTree = "<group>"; };
 		F6FB12921CC62B9000A939B8 /* SyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyButton.m; sourceTree = "<group>"; };
+		F6FE31351CD1F496003A2F11 /* ShRentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShRentViewController.h; sourceTree = "<group>"; };
+		F6FE31361CD1F496003A2F11 /* ShRentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShRentViewController.m; sourceTree = "<group>"; };
+		F6FE313A1CD1F525003A2F11 /* ShBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShBaseTableView.h; sourceTree = "<group>"; };
+		F6FE313B1CD1F525003A2F11 /* ShBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShBaseTableView.m; sourceTree = "<group>"; };
+		F6FE313D1CD1F74F003A2F11 /* RentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentHelper.h; sourceTree = "<group>"; };
+		F6FE313E1CD1F74F003A2F11 /* RentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentHelper.m; sourceTree = "<group>"; };
+		F6FE31411CD1F8C6003A2F11 /* ShImageBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShImageBtn.h; sourceTree = "<group>"; };
+		F6FE31421CD1F8C6003A2F11 /* ShImageBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShImageBtn.m; sourceTree = "<group>"; };
+		F6FE31441CD1F95C003A2F11 /* ShRentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShRentHeaderView.h; sourceTree = "<group>"; };
+		F6FE31451CD1F95C003A2F11 /* ShRentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShRentHeaderView.m; sourceTree = "<group>"; };
+		F6FE31471CD1FC38003A2F11 /* RentPlaceHolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RentPlaceHolder.png; sourceTree = "<group>"; };
+		F6FE31491CD1FE09003A2F11 /* FooViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooViewController.h; sourceTree = "<group>"; };
+		F6FE314A1CD1FE09003A2F11 /* FooViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooViewController.m; sourceTree = "<group>"; };
+		F6FE314D1CD21504003A2F11 /* ShBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShBaseTableViewCell.h; sourceTree = "<group>"; };
+		F6FE314E1CD21504003A2F11 /* ShBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShBaseTableViewCell.m; sourceTree = "<group>"; };
+		F6FE31551CD21E78003A2F11 /* RentNotificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentNotificationModel.h; sourceTree = "<group>"; };
+		F6FE31561CD21E78003A2F11 /* RentNotificationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentNotificationModel.m; sourceTree = "<group>"; };
+		F6FE31641CD223E8003A2F11 /* RentCommonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentCommonCell.h; sourceTree = "<group>"; };
+		F6FE31651CD223E8003A2F11 /* RentCommonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentCommonCell.m; sourceTree = "<group>"; };
+		F6FE31671CD225CF003A2F11 /* RentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentTableViewController.h; sourceTree = "<group>"; };
+		F6FE31681CD225CF003A2F11 /* RentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentTableViewController.m; sourceTree = "<group>"; };
+		F6FE316F1CD22C20003A2F11 /* RentInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentInfoViewController.h; sourceTree = "<group>"; };
+		F6FE31701CD22C20003A2F11 /* RentInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentInfoViewController.m; sourceTree = "<group>"; };
+		F6FE31721CD22E66003A2F11 /* RentCommonCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentCommonCellModel.h; sourceTree = "<group>"; };
+		F6FE31731CD22E66003A2F11 /* RentCommonCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentCommonCellModel.m; sourceTree = "<group>"; };
+		F6FE31751CD23052003A2F11 /* RentCustomerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RentCustomerController.h; sourceTree = "<group>"; };
+		F6FE31761CD23052003A2F11 /* RentCustomerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RentCustomerController.m; sourceTree = "<group>"; };
 		F6FFE3841CAD272400B2DE7A /* ShCommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShCommonUI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -303,6 +341,8 @@
 		F6045BFB1CACFED3006BDA6F /* CLasses */ = {
 			isa = PBXGroup;
 			children = (
+				F6C389B11CCF73450055298F /* MLT_Groups */,
+				F6FE31161CD1B036003A2F11 /* LuoBo_Rent */,
 				F6045BFD1CAD00E6006BDA6F /* AppDelegate */,
 				F6045C021CAD0141006BDA6F /* ViewControllers */,
 				F6045BFE1CAD00E6006BDA6F /* Marcos */,
@@ -368,8 +408,6 @@
 		F6045C021CAD0141006BDA6F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F6C389B11CCF73450055298F /* MLT_Groups */,
-				F65F9D5B1CCF67B0002F32F0 /* YY_Groups */,
 				F6A3D1081CBBC21200C2AE22 /* MineVC */,
 				F6A3D1071CBBC1EC00C2AE22 /* NotificationVC */,
 				F6A3D1061CBBC1E200C2AE22 /* DiscoverVC */,
@@ -385,6 +423,27 @@
 			);
 			name = GuidePage;
 			path = Register/GuidePage;
+			sourceTree = "<group>";
+		};
+		F60BF60A1CD36CE200B6678E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F60BF60B1CD36CE700B6678E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F60BF60C1CD36CF400B6678E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 		F625FDC01CC4E99300DC3A62 /* Common */ = {
@@ -502,25 +561,6 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F65F9D5B1CCF67B0002F32F0 /* YY_Groups */ = {
-			isa = PBXGroup;
-			children = (
-				F65F9D621CCF67EF002F32F0 /* WebImage */,
-			);
-			path = YY_Groups;
-			sourceTree = "<group>";
-		};
-		F65F9D621CCF67EF002F32F0 /* WebImage */ = {
-			isa = PBXGroup;
-			children = (
-				F65F9D5F1CCF67ED002F32F0 /* WebimageVC.h */,
-				F65F9D601CCF67ED002F32F0 /* WebimageVC.m */,
-				F65F9D5C1CCF67DA002F32F0 /* WebImageTableViewCell.h */,
-				F65F9D5D1CCF67DA002F32F0 /* WebImageTableViewCell.m */,
-			);
-			name = WebImage;
-			sourceTree = "<group>";
-		};
 		F6A3D1051CBBC1D700C2AE22 /* MainVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -574,7 +614,8 @@
 				F6D53D221CD08A0D000B1480 /* UserModel.h */,
 				F6D53D231CD08A0D000B1480 /* UserModel.m */,
 			);
-			path = MLT_Groups;
+			name = MLT_Groups;
+			path = ViewControllers/MLT_Groups;
 			sourceTree = "<group>";
 		};
 		F6D53CBC1CCF7DFD000B1480 /* ViewController */ = {
@@ -815,6 +856,157 @@
 			name = GuidePageVC;
 			sourceTree = "<group>";
 		};
+		F6FE31161CD1B036003A2F11 /* LuoBo_Rent */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE31471CD1FC38003A2F11 /* RentPlaceHolder.png */,
+				F6FE31351CD1F496003A2F11 /* ShRentViewController.h */,
+				F6FE31361CD1F496003A2F11 /* ShRentViewController.m */,
+				F6FE315C1CD221EE003A2F11 /* RentCommon */,
+				F6FE315B1CD221D7003A2F11 /* RentOrder */,
+				F6FE315A1CD22156003A2F11 /* RentPayment */,
+				F6FE31591CD220F1003A2F11 /* RentCustomer */,
+				F6FE31581CD220C3003A2F11 /* RentRoom */,
+			);
+			path = LuoBo_Rent;
+			sourceTree = "<group>";
+		};
+		F6FE312E1CD1F3D1003A2F11 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE31491CD1FE09003A2F11 /* FooViewController.h */,
+				F6FE314A1CD1FE09003A2F11 /* FooViewController.m */,
+				F6FE316F1CD22C20003A2F11 /* RentInfoViewController.h */,
+				F6FE31701CD22C20003A2F11 /* RentInfoViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F6FE31331CD1F467003A2F11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE31631CD223C4003A2F11 /* Cell */,
+				F6FE31501CD21509003A2F11 /* Base */,
+				F6FE31411CD1F8C6003A2F11 /* ShImageBtn.h */,
+				F6FE31421CD1F8C6003A2F11 /* ShImageBtn.m */,
+				F6FE31441CD1F95C003A2F11 /* ShRentHeaderView.h */,
+				F6FE31451CD1F95C003A2F11 /* ShRentHeaderView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F6FE31341CD1F46F003A2F11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE31551CD21E78003A2F11 /* RentNotificationModel.h */,
+				F6FE31561CD21E78003A2F11 /* RentNotificationModel.m */,
+				F6FE31721CD22E66003A2F11 /* RentCommonCellModel.h */,
+				F6FE31731CD22E66003A2F11 /* RentCommonCellModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F6FE31401CD1F755003A2F11 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE313D1CD1F74F003A2F11 /* RentHelper.h */,
+				F6FE313E1CD1F74F003A2F11 /* RentHelper.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F6FE31501CD21509003A2F11 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE31671CD225CF003A2F11 /* RentTableViewController.h */,
+				F6FE31681CD225CF003A2F11 /* RentTableViewController.m */,
+				F6FE313A1CD1F525003A2F11 /* ShBaseTableView.h */,
+				F6FE313B1CD1F525003A2F11 /* ShBaseTableView.m */,
+				F6FE314D1CD21504003A2F11 /* ShBaseTableViewCell.h */,
+				F6FE314E1CD21504003A2F11 /* ShBaseTableViewCell.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		F6FE31581CD220C3003A2F11 /* RentRoom */ = {
+			isa = PBXGroup;
+			children = (
+				F60BF6071CD36CBF00B6678E /* RentRoomController.h */,
+				F60BF6081CD36CBF00B6678E /* RentRoomController.m */,
+				F60BF60C1CD36CF400B6678E /* ViewController */,
+				F60BF60B1CD36CE700B6678E /* Model */,
+				F60BF60A1CD36CE200B6678E /* View */,
+			);
+			name = RentRoom;
+			sourceTree = "<group>";
+		};
+		F6FE31591CD220F1003A2F11 /* RentCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE31751CD23052003A2F11 /* RentCustomerController.h */,
+				F6FE31761CD23052003A2F11 /* RentCustomerController.m */,
+				F6FE315F1CD2230B003A2F11 /* Model */,
+				F6FE315E1CD22300003A2F11 /* ViewController */,
+				F6FE315D1CD222F6003A2F11 /* View */,
+			);
+			name = RentCustomer;
+			sourceTree = "<group>";
+		};
+		F6FE315A1CD22156003A2F11 /* RentPayment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RentPayment;
+			sourceTree = "<group>";
+		};
+		F6FE315B1CD221D7003A2F11 /* RentOrder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RentOrder;
+			sourceTree = "<group>";
+		};
+		F6FE315C1CD221EE003A2F11 /* RentCommon */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE31341CD1F46F003A2F11 /* Model */,
+				F6FE31331CD1F467003A2F11 /* View */,
+				F6FE312E1CD1F3D1003A2F11 /* ViewController */,
+				F6FE31401CD1F755003A2F11 /* Utils */,
+			);
+			name = RentCommon;
+			sourceTree = "<group>";
+		};
+		F6FE315D1CD222F6003A2F11 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F6FE315E1CD22300003A2F11 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		F6FE315F1CD2230B003A2F11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F6FE31631CD223C4003A2F11 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F6FE31641CD223E8003A2F11 /* RentCommonCell.h */,
+				F6FE31651CD223E8003A2F11 /* RentCommonCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -877,6 +1069,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6045BF41CACFEA8006BDA6F /* LaunchScreen.storyboard in Resources */,
+				F6FE31481CD1FC38003A2F11 /* RentPlaceHolder.png in Resources */,
 				F6E27C261CC0ED3000CD6E52 /* GuideImages in Resources */,
 				F6D53CC91CCF864A000B1480 /* portal.zip in Resources */,
 				F6D53CC71CCF863C000B1480 /* 778913468791490474930525_portal.html in Resources */,
@@ -945,20 +1138,26 @@
 				F6A3D1121CBBC29900C2AE22 /* DiscoverViewController.m in Sources */,
 				F629CBC01CC5E80D00A7B334 /* NSNull+OVNatural.m in Sources */,
 				F6D53D411CD0A1FD000B1480 /* SyHttpHeaderMakerUtils.m in Sources */,
+				F6FE31461CD1F95C003A2F11 /* ShRentHeaderView.m in Sources */,
 				F6D53D6F1CD0A8B2000B1480 /* NSString+Size.m in Sources */,
 				F6D53DA01CD0E441000B1480 /* MHomeUnReadObject.m in Sources */,
 				F629CB9F1CC5E2E200A7B334 /* NSString+Size.m in Sources */,
+				F6FE31371CD1F496003A2F11 /* ShRentViewController.m in Sources */,
 				F621571E1CC735B7005ED14F /* SyRecordView.m in Sources */,
 				F6D53D811CD0A9DD000B1480 /* NSObject+JSON.m in Sources */,
+				F6FE31741CD22E66003A2F11 /* RentCommonCellModel.m in Sources */,
 				F6D53D701CD0A8B2000B1480 /* NSString+SyString.m in Sources */,
 				F6A3D10B1CBBC27200C2AE22 /* MineViewController.m in Sources */,
+				F6FE313C1CD1F525003A2F11 /* ShBaseTableView.m in Sources */,
 				F6A3D1161CBBC2B000C2AE22 /* MainViewController.m in Sources */,
 				F6FB12901CC6253900A939B8 /* SyNavigationBar.m in Sources */,
 				F6045C0A1CAD0248006BDA6F /* LoginViewController.m in Sources */,
 				F6D53D6D1CD0A8B2000B1480 /* NSDate+convenience.m in Sources */,
+				F6FE31571CD21E78003A2F11 /* RentNotificationModel.m in Sources */,
+				F6FE31431CD1F8C6003A2F11 /* ShImageBtn.m in Sources */,
 				F629CBBA1CC5E6BC00A7B334 /* UIWebView+JavaScriptAlert.m in Sources */,
-				F65F9D611CCF67ED002F32F0 /* WebimageVC.m in Sources */,
 				F6DA6E811CC5D067008B07E5 /* AppDelegate.m in Sources */,
+				F6FE31661CD223E8003A2F11 /* RentCommonCell.m in Sources */,
 				F629CBC31CC5E84600A7B334 /* UIScrollView+AllowPanGestureEventPass.m in Sources */,
 				F629CB8D1CC5DC2400A7B334 /* SyAlertView.m in Sources */,
 				F629CBC91CC5EAF400A7B334 /* SyFaceView.m in Sources */,
@@ -966,15 +1165,18 @@
 				F625FDC81CC5003F00DC3A62 /* SyBaseView.m in Sources */,
 				F6FB12931CC62B9000A939B8 /* SyButton.m in Sources */,
 				F6D53D6E1CD0A8B2000B1480 /* NSNull+OVNatural.m in Sources */,
+				F6FE31691CD225CF003A2F11 /* RentTableViewController.m in Sources */,
 				F6A3D10E1CBBC27F00C2AE22 /* NotifacationViewController.m in Sources */,
 				F629CB901CC5DFBE00A7B334 /* SyTabBarController.m in Sources */,
 				F6D53D991CD0D110000B1480 /* SySecurityUtil.m in Sources */,
 				F6D53D911CD0CF8E000B1480 /* SyLoginRequest.m in Sources */,
+				F60BF6091CD36CBF00B6678E /* RentRoomController.m in Sources */,
 				F6D53D841CD0B0A0000B1480 /* SyBaseProvider.m in Sources */,
 				F629CBA21CC5E32300A7B334 /* UILabel+Size.m in Sources */,
 				F629CBB41CC5E60800A7B334 /* UIImagePickerController+SyImagePickerController.m in Sources */,
 				F629CB9C1CC5E27100A7B334 /* UIColor+Category.m in Sources */,
 				F6FB128D1CC624D500A939B8 /* SyBaseNavView.m in Sources */,
+				F6FE314B1CD1FE09003A2F11 /* FooViewController.m in Sources */,
 				F6D53D3E1CD0A025000B1480 /* SyBaseRequest.m in Sources */,
 				F625FDC51CC4FA1300DC3A62 /* SyBaseViewController.m in Sources */,
 				F6D53D241CD08A0D000B1480 /* UserModel.m in Sources */,
@@ -985,10 +1187,10 @@
 				F6D53D8A1CD0C9C2000B1480 /* SyURLProvider.m in Sources */,
 				F6D53D3B1CD09FA3000B1480 /* SyBaseResponse.m in Sources */,
 				F6D53D441CD0A279000B1480 /* SyServerManager.m in Sources */,
+				F6FE31771CD23052003A2F11 /* RentCustomerController.m in Sources */,
 				F6D53D9C1CD0E1A4000B1480 /* SyWebView.m in Sources */,
 				F6D53D981CD0D110000B1480 /* SyBase64.m in Sources */,
 				F6D53D4B1CD0A3D1000B1480 /* SyCacheManager.m in Sources */,
-				F65F9D5E1CCF67DA002F32F0 /* WebImageTableViewCell.m in Sources */,
 				F6D53D4C1CD0A3D1000B1480 /* SyFileManager.m in Sources */,
 				F629CBC61CC5EA9C00A7B334 /* SyBaseControl.m in Sources */,
 				F629CBA81CC5E44E00A7B334 /* NSDate+convenience.m in Sources */,
@@ -998,12 +1200,15 @@
 				F6FB12891CC6225C00A939B8 /* SyBaseNavViewController.m in Sources */,
 				F6E27C201CC0E70300CD6E52 /* GuidePageVIew.m in Sources */,
 				F6D53D871CD0B7E5000B1480 /* SyURLConnection.m in Sources */,
+				F6FE313F1CD1F74F003A2F11 /* RentHelper.m in Sources */,
 				F629CBAB1CC5E4D100A7B334 /* NSString+SyString.m in Sources */,
 				F6D53D1C1CD057AB000B1480 /* Model.m in Sources */,
 				F62157241CC76872005ED14F /* SyView.m in Sources */,
 				F6045BE61CACFEA8006BDA6F /* main.m in Sources */,
 				F6D53D211CD07E81000B1480 /* BaseModel.m in Sources */,
 				F6DA6E841CC5D0FA008B07E5 /* RootViewController.m in Sources */,
+				F6FE314F1CD21504003A2F11 /* ShBaseTableViewCell.m in Sources */,
+				F6FE31711CD22C20003A2F11 /* RentInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
